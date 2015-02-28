@@ -1,13 +1,5 @@
 ﻿<![CDATA[/*
------------------------------------------------
-Blogger Template Style
-Name:     Simple
-Designer: Josh Peterson
-URL:      www.noaesthetic.com
------------------------------------------------ */
 
-/* Variable definitions
-   ====================
    <Variable name="keycolor" description="Main Color" type="color" default="#66bbdd" value="#ffffff"/>
 
    <Group description="Page Text" selector="body">
@@ -562,4 +554,3 @@ body.mobile .AdSense {
 .mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
   border-$startSide: 1px solid $(tabs.border.color);
 }
-]]>
