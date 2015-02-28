@@ -1,4 +1,4 @@
-﻿<script>//<![CDATA[
+﻿//<![CDATA[
 (function(window,name,element,offset,max,size){
 window[name] = function(d){
     var es = d.feed.entry;
@@ -40,4 +40,4 @@ window[name] = function(d){
 };
 })(window,"headline66","#headline66",0,100,400);
 //]]></script>
-				<script src="http://anipuni.blogspot.com/feeds/posts/full/-/ドラマ日曜?redirect=false&amp;max-results=50&amp;alt=json-in-script&amp;callback=headline66"></script>
+				<script src="http://anipuni.blogspot.com/feeds/posts/full/-/ドラマ日曜?redirect=false&amp;max-results=50&amp;alt=json-in-script&amp;callback=headline66">
