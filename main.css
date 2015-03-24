@@ -307,6 +307,13 @@ h2 { background: RGBa(235,33,66,0.8);}
 @media only screen and (max-width:720px) { .amama img { height: 219px; width: auto;}
 span3 { font-size: 1em;}
 #HTML8 { display: none;}
+#headline2015springFree .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline2015springFree .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline2015springFree .outer p.title:hover { height: 60px;}
+#headline2015springFree .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline2015springFree .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline2015springFree .inner { text-align: center;}
+#headline2015springFree .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headline .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
 #headline .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headline .outer p.title:hover { height: 60px;}
