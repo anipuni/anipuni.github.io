@@ -241,7 +241,7 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .channel09 a:before { content: "[無料]最新回誰でも無料"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel09 a { line-height: 150%; padding: 5px 0px 5px 0px; background: RGBa(39,174,96,0.05); color: RGBa(39,174,96,1); text-align: left; font-size: 1em; display: block; text-decoration: none; margin: 0px 0px 5px 0px; border: solid 1px RGBa(39,174,96,1);}
 .channel09 a:hover { background: RGBa(39,174,96,0.2);}
-.channel10 a { line-height: 200%; padding: 50px; background-color: rgba(0,171,255,0.9); color: #ffffff; text-align: center; font-size: 20px; display: block; text-decoration: none; border-bottom: 1px solid #fff; transition: 0.5s;}
+.channel10 a { line-height: 130%; padding: 50px; background-color: rgba(0,171,255,0.9); color: #ffffff; text-align: center; font-size: 20px; display: block; text-decoration: none; border-bottom: 1px solid #fff; transition: 0.5s;}
 .channel10 a:hover { text-decoration: none; background-color: rgba(0,100,255,0.9);}
 .youbi a { padding: 0px; color: #ff4e20; text-align: left; font-size: 1.2em; display: block; text-decoration: none;}
 spanbook { padding: 0px; color: #ff4e20; text-align: left; font-size: 1.5em; display: block; text-decoration: none;}
