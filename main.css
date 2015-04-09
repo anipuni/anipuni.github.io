@@ -215,7 +215,7 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .btn3 a { padding: 0px 10px 0px 10px; margin: 0px 0px 6px 5px; color: #fff; font-size: 13px; display: inline-block; text-decoration: none; background-color: #ff443b; transition: 0.3s; border-right: 1px solid #ff443b; border-left: 1px solid #ff443b; border-top: 1px solid #ff443b; border-bottom: 1px solid #ff443b;}
 .btn4 a { width: 118.8px; padding: 10px 0px 10px 0px; border: 1px solid rgba(255, 255, 255,0.2); margin: 5px 1px 0px 0px; color: rgba(255, 255, 255,1); font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; background-color: rgba(255, 255, 255,0.2);}
 .btn4 a:hover { background-color: rgba(255, 255, 255,0.4);}
-.btn5 a { padding: 10px 30px 10px 30px; border: 1px solid RGBa(255, 255, 255,0.2); margin: 5px 1px 0px 0px; color: RGBa(255, 255, 255,1); font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; background-color: RGBa(255, 255, 255,0.2);}
+.btn5 a { padding: 10px 28px 10px 28px; border: 1px solid RGBa(255, 255, 255,0.2); margin: 5px 1px 0px 0px; color: RGBa(255, 255, 255,1); font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; background-color: RGBa(255, 255, 255,0.2);}
 .btn5 a:hover { background-color: rgba(255, 255, 255,0.4);}
 .btn6 { border-left: 1px solid rgba(255,78,32,1); border-top: 1px solid rgba(255,78,32,1); border-bottom: 1px solid rgba(255,78,32,1); background-color: rgba(255,78,32,1);}
 .btn7 a { width: 140px; padding: 15px 2px 15px 2px; border: 1px solid rgba(255, 255, 255,0.2); margin: 2px 2px 0px 0px; color: #fff; text-align: center; font-size: 15px; display: inline-block; text-decoration: none; background-color: rgba(255,255,255,0.2);}
