@@ -27,8 +27,8 @@ img { -ms-interpolation-mode: bicubic;}
 img.topanipuni { margin-left: -20px;}
 .yokoipai { background: RGBa(235,33,66,0.5); margin: 0 -500%; padding: 0px 500%; height: auto; border-bottom: 5px solid rgba(255,78,32,0); z-index: 1000;}
 .900ijyou { background: RGBa(255,255,255,1);}
-.yokoipai2 { background: RGBa(235,33,66,0.8); margin: 0 -500%; padding: 0px 500%; height: auto; border-bottom: 5px solid rgba(255,78,32,0); z-index: 1000;}
-.yokoipai3 { background: RGBa(0,106,255,0.8); margin: 0 -500%; padding: 0px 500%; height: auto; border-bottom: 5px solid RGBa(0,106,255,0); z-index: 1000;}
+.yokoipai2 { background: RGBa(235,33,66,0.8); margin: 0 ; padding: 0px; height: auto; border-bottom: 5px solid rgba(255,78,32,0); z-index: 1000;}
+.yokoipai3 { background: RGBa(0,106,255,0.8); margin: 0 ; padding: 0px ; height: auto; border-bottom: 5px solid RGBa(0,106,255,0); z-index: 1000;}
 .yokoipai4 { background-color: #fff; margin: 0 -500%; padding: 0px 500%; height: 50px; z-index: 1000;}
 body { -webkit-text-size-adjust: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
 .content-inner { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
@@ -213,9 +213,9 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .btn2 a:hover { background-color: rgba(255, 255, 255,0.2); text-shadow: none;}
 .btn3 { white-space: nowrap;}
 .btn3 a { padding: 0px 10px 0px 10px; margin: 0px 0px 6px 5px; color: #fff; font-size: 13px; display: inline-block; text-decoration: none; background-color: #ff443b; transition: 0.3s; border-right: 1px solid #ff443b; border-left: 1px solid #ff443b; border-top: 1px solid #ff443b; border-bottom: 1px solid #ff443b;}
-.btn4 a { width: 118.8px; padding: 10px 0px 10px 0px; border: 1px solid rgba(255, 255, 255,0.2); margin: 5px 1px 0px 0px; color: rgba(255, 255, 255,1); font-size: 16px; display: inline-block; text-decoration: none; font-weight: normal; background-color: rgba(255, 255, 255,0.2);}
+.btn4 a { text-align: left;width: 100%; padding: 5px; border: 1px solid rgba(255, 255, 255,0.2); margin: 1px; color: rgba(255, 255, 255,1); font-size: 16px; display: block; text-decoration: none; font-weight: normal; background-color: rgba(255, 255, 255,0.2);}
 .btn4 a:hover { background-color: rgba(255, 255, 255,0.4);}
-.btn5 a { padding: 10px 29.3px 10px 29.3px; border: 1px solid RGBa(255, 255, 255,0.2); margin: 5px 1px 0px 0px; color: RGBa(255, 255, 255,1); font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; background-color: RGBa(255, 255, 255,0.2);}
+.btn5 a { padding: 4.5px ; border: 1px solid RGBa(255, 255, 255,0.2); margin: 5px 1px 0px 0px; color: RGBa(255, 255, 255,1); font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; background-color: RGBa(255, 255, 255,0.2);}
 .btn5 a:hover { background-color: rgba(255, 255, 255,0.4);}
 .btn6 { border-left: 1px solid rgba(255,78,32,1); border-top: 1px solid rgba(255,78,32,1); border-bottom: 1px solid rgba(255,78,32,1); background-color: rgba(255,78,32,1);}
 .btn7 a { width: 140px; padding: 15px 2px 15px 2px; border: 1px solid rgba(255, 255, 255,0.2); margin: 2px 2px 0px 0px; color: #fff; text-align: center; font-size: 15px; display: inline-block; text-decoration: none; background-color: rgba(255,255,255,0.2);}
