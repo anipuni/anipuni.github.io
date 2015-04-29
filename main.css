@@ -246,6 +246,22 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .channel12 a {line-height: 130%; padding: 10px; background-color: rgba(0,171,255,0.9); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
 .channel12 a:hover { text-decoration: none; background-color: rgba(0,100,255,0.9);}
 .channel12 {text-align: center;}
+
+.channel13 a {line-height: 130%; padding: 10px; background-color: rgba(249, 105, 14,0.9); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel13 a:hover { text-decoration: none; background-color: rgba(249, 105, 14,0.9);}
+.channel13 {text-align: center;}
+.channel14 a {line-height: 130%; padding: 10px; background-color: rgba(27, 163, 156,0.9); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel14 a:hover { text-decoration: none; background-color: rgba(27, 163, 156,0.9);}
+.channel14 {text-align: center;}
+.channel15 a {line-height: 130%; padding: 10px; background-color: rgba(246, 71, 71,0.9); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel15 a:hover { text-decoration: none; background-color: rgba(246, 71, 71,0.9);}
+.channel15 {text-align: center;}
+.channel16 a {line-height: 130%; padding: 10px; background-color: rgba(249, 191, 59,0.9); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel16 a:hover { text-decoration: none; background-color: rgba(249, 191, 59,0.9);}
+.channel16 {text-align: center;}
+.channel17 a {line-height: 130%; padding: 10px; background-color: rgba(142, 68, 173,0.9); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel17 a:hover { text-decoration: none; background-color: rgba(142, 68, 173,0.9);}
+.channel17 {text-align: center;}
 .youbi a { padding: 0px; color: #ff4e20; text-align: left; font-size: 1.2em; display: block; text-decoration: none;}
 spanbook { padding: 0px; color: #ff4e20; text-align: left; font-size: 1.5em; display: block; text-decoration: none;}
 .channel88 a { margin: 0px; padding: 0px; width: 1em; white-space: normal; padding: 1px; text-align: left; font-size: 1px; display: block; text-decoration: none;}
