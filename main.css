@@ -39,7 +39,7 @@ body { -webkit-text-size-adjust: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px
 .post a:hover img { opacity: 0.6; transition: 0.5s;}
 .sidebar { background: #fff; padding: 0px 0px 0px 0px; margin: -16.5px 10px 0px -10px;}
 .post-labels { color: RGBa(17,34,204,1); font-size: 1em;}
-.post-labels a { background: RGBa(17,34,204,0.1); color: RGBa(17,34,204,1); text-align: left; font-size: 1em; display: inline-block; text-decoration: none; margin: 0px 2px 5px 0px;}
+.post-labels a { background: RGBa(17,34,204,0.1); color: RGBa(17,34,204,1); text-align: left; font-size: 1.5em; display: inline-block; text-decoration: none; margin: 0px 2px 5px 0px;}
 .post-labels a:hover { background: RGBa(17,34,204,0.2);}
 .entry-content { font-size: 1.3em; color: #000;}
 .footer-outer { border-top: none;}
