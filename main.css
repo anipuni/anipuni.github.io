@@ -26,7 +26,7 @@ img { -ms-interpolation-mode: bicubic;}
 #PopularPosts2 { display: none;}
 .mfooter { display: none;}
 img.topanipuni { margin-left: -20px;}
-.yokoipai { background: RGBa(235,33,66,0.01); margin: 0 -500%; padding: 0px 500%; height: auto; border-bottom: 5px solid rgba(255,255,255,0); z-index: 1000;}
+.yokoipai { background: RGBa(235,33,66,0.03); margin: 0 -500%; padding: 0px 500%; height: auto; border-bottom: 5px solid rgba(255,255,255,0); z-index: 1000;}
 .900ijyou { background: RGBa(255,255,255,1);}
 .yokoipai2 { background: RGBa(235,33,66,0.8); margin: 0 ; padding: 0px; height: auto; border-bottom: 5px solid rgba(255,78,32,0); z-index: 1000;}
 .yokoipai3 { background: RGBa(0,106,255,0.8); margin: 0 ; padding: 0px ; height: auto; border-bottom: 5px solid RGBa(0,106,255,0); z-index: 1000;}
