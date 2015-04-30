@@ -26,7 +26,7 @@ img { -ms-interpolation-mode: bicubic;}
 #PopularPosts2 { display: none;}
 .mfooter { display: none;}
 img.topanipuni { margin-left: -20px;}
-.yokoipai { background: RGBa(255,255,255,0.5); margin: 0 -500%; padding: 0px 500%; height: auto; border-bottom: 5px solid rgba(255,255,255,0); z-index: 1000;}
+.yokoipai { background: RGBa(235,33,66,0.1); margin: 0 -500%; padding: 0px 500%; height: auto; border-bottom: 5px solid rgba(255,255,255,0); z-index: 1000;}
 .900ijyou { background: RGBa(255,255,255,1);}
 .yokoipai2 { background: RGBa(235,33,66,0.8); margin: 0 ; padding: 0px; height: auto; border-bottom: 5px solid rgba(255,78,32,0); z-index: 1000;}
 .yokoipai3 { background: RGBa(0,106,255,0.8); margin: 0 ; padding: 0px ; height: auto; border-bottom: 5px solid RGBa(0,106,255,0); z-index: 1000;}
@@ -275,7 +275,7 @@ spanbook { padding: 0px; color: #ff4e20; text-align: left; font-size: 1.5em; dis
 span1 { display: inline-block; font-size: 1em; font-weight: bold; width: 190px; border-left: 10px solid; margin: 1px 5px;}
 span11 { text-align: center; display: inline-block; font-size: 1.2em; width: 100%; font-weight: bold; padding-top: 5px; padding-bottom: 5px;}
 span2 { line-height: 150%; margin: 0px 25px; display: inline-block; font-size: 1em; max-width: auto;}
-span3 { color: #333333; font-size: 1.2em;}
+span3 { color: #555555; font-size: 1.2em;}
 span4 { border-left: 10px solid; margin: 1px 5px; font-weight: bold; font-size: 1.2em;}
 .aiueo a { width: 95%; height: 20px; padding: 1px 10px; overflow: hidden; color: #1122cc; text-align: left; display: block; font-size: 1.2em; text-decoration: none;}
 .aiueo a:hover { color: red;}
