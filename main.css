@@ -295,8 +295,8 @@ html { overflow: auto;}
 body { overflow: hidden;}
 iframe.twitter-timeline { width: 100% !important;}
 .amama img { height: 320px; width: auto;}
-.PopularPosts a { width: 95%; height: 15px; overflow: hidden; margin: 2px 0px -10px 15px; color: #1122cc; text-align: left; display: block; font-size: 1.2em; text-decoration: none;}
-.PopularPosts a:hover { color: red;}
+.PopularPosts a { width: 95%; height: 15px; overflow: hidden; margin: 2px 0px -10px 15px; color: red; text-align: left; display: block; font-size: 1.2em; text-decoration: none;}
+.PopularPosts a:hover { color: #1122cc;}
 .popular-posts ul li { counter-increment: popular-count; list-style-type: none; position: relative;}
 .popular-posts ul li:before { margin: 7px -10px; font-size: 1em; background-color: #ff4e20; color: #fff; content: counter(popular-count); height: 20px; left: 0; line-height: 22px; position: absolute; text-align: center; top: 0; width: 20px; z-index: 10;}
 #searchsubmit { padding: 1px; border-right: 1px solid #777; border-left: 1px solid #777; border-top: 1px solid #777; border-bottom: 1px solid #777;}
