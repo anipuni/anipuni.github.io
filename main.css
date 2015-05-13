@@ -151,6 +151,12 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 #headline66 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
 #headline66 .inner { text-align: center;}
 #headline66 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline77 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headline77 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headline77 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headline77 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headline77 .inner { text-align: center;}
+#headline77 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headlinegentei .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 255px; position: relative; background-color: #fff;}
 #headlinegentei .outer p.title { width: 135px; height: 55px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
 #headlinegentei .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
@@ -439,6 +445,13 @@ span3 { font-size: 1em;}
 #headline66 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
 #headline66 .inner { text-align: center;}
 #headline66 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline77 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline77 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline77 .outer p.title:hover { height: 60px;}
+#headline77 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline77 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline77 .inner { text-align: center;}
+#headline77 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headlinegentei .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
 #headlinegentei .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headlinegentei .outer p.title:hover { height: 60px;}
