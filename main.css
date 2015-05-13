@@ -341,6 +341,55 @@ span3 { font-size: 1em;}
 #headline .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
 #headline .inner { text-align: center;}
 #headline .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline0 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline0 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline0 .outer p.title:hover { height: 60px;}
+#headline0 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline0 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline0 .inner { text-align: center;}
+#headline0 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline1 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline1 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline1 .outer p.title:hover { height: 60px;}
+#headline1 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline1 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline1 .inner { text-align: center;}
+#headline1 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline2 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline2 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline2 .outer p.title:hover { height: 60px;}
+#headline2 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline2 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline2 .inner { text-align: center;}
+#headline2 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline3 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline3 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline3 .outer p.title:hover { height: 60px;}
+#headline3 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline3 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline3 .inner { text-align: center;}
+#headline3 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline4 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline4 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline4 .outer p.title:hover { height: 60px;}
+#headline4 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline4 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline4 .inner { text-align: center;}
+#headline4 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline5 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline5 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline5 .outer p.title:hover { height: 60px;}
+#headline5 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline5 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline5 .inner { text-align: center;}
+#headline5 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headline6 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headline6 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headline6 .outer p.title:hover { height: 60px;}
+#headline6 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headline6 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headline6 .inner { text-align: center;}
+#headline6 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headline00 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
 #headline00 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headline00 .outer p.title:hover { height: 60px;}
@@ -390,55 +439,6 @@ span3 { font-size: 1em;}
 #headline66 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
 #headline66 .inner { text-align: center;}
 #headline66 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
-#headline00 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 144px; height: 154px; position: relative; background-color: #fff; box-shadow: none;}
-#headline00 .outer p.title { width: 144px; height: 46px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
-#headline00 .outer p.title:hover { }
-#headline00 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
-#headline00 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
-#headline00 .inner { text-align: center;}
-#headline00 .inner img { width: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
-#headline11 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 144px; height: 154px; position: relative; background-color: #fff; box-shadow: none;}
-#headline11 .outer p.title { width: 144px; height: 46px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
-#headline11 .outer p.title:hover { }
-#headline11 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
-#headline11 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
-#headline11 .inner { text-align: center;}
-#headline11 .inner img { width: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
-#headline22 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 144px; height: 154px; position: relative; background-color: #fff; box-shadow: none;}
-#headline22 .outer p.title { width: 144px; height: 46px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
-#headline22 .outer p.title:hover { }
-#headline22 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
-#headline22 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
-#headline22 .inner { text-align: center;}
-#headline22 .inner img { width: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
-#headline33 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 144px; height: 154px; position: relative; background-color: #fff; box-shadow: none;}
-#headline33 .outer p.title { width: 144px; height: 46px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
-#headline33 .outer p.title:hover { }
-#headline33 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
-#headline33 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
-#headline33 .inner { text-align: center;}
-#headline33 .inner img { width: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
-#headline44 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 144px; height: 154px; position: relative; background-color: #fff; box-shadow: none;}
-#headline44 .outer p.title { width: 144px; height: 46px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
-#headline44 .outer p.title:hover { }
-#headline44 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
-#headline44 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
-#headline44 .inner { text-align: center;}
-#headline44 .inner img { width: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
-#headline55 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 144px; height: 154px; position: relative; background-color: #fff; box-shadow: none;}
-#headline55 .outer p.title { width: 144px; height: 46px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
-#headline55 .outer p.title:hover { }
-#headline55 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
-#headline55 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
-#headline55 .inner { text-align: center;}
-#headline55 .inner img { width: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
-#headline66 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 144px; height: 154px; position: relative; background-color: #fff; box-shadow: none;}
-#headline66 .outer p.title { width: 144px; height: 46px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
-#headline66 .outer p.title:hover { }
-#headline66 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
-#headline66 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
-#headline66 .inner { text-align: center;}
-#headline66 .inner img { width: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headlinegentei .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
 #headlinegentei .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headlinegentei .outer p.title:hover { height: 60px;}
