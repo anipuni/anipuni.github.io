@@ -245,6 +245,7 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .channel06 a:before { content: "[有料or未定or無料終了]"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel06 a { line-height: 150%; padding: 5px 0px 5px 0px; margin: 0px 0px 5px 0px; background: RGBa(255,255,255,1); color: #000; text-align: left; font-size: 1em; display: block; text-decoration: none; border: solid 1px RGBa(0,0,0,0.5);}
 .channel06 a:hover { background: RGBa(0,0,0,0.1);}
+.channel07 a:before { content: "検索でアニぷにへお越しいただきありがとうございます_(._.)_\A""現在アニメ本編の無料配信は行われていない模様です\A""公式無料配信を発見された方はTwitter等でご連絡いただけるとありがたいです\A""違法動画は一切まとめません誘導もしておりません";white-space: pre; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel09 a:before { content: "[無料]最新回"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel09 a { line-height: 150%; padding: 5px 0px 5px 0px; background: RGBa(39,174,96,0.05); color: RGBa(39,174,96,1); text-align: left; font-size: 1em; display: block; text-decoration: none; margin: 0px 0px 5px 0px; border: solid 1px RGBa(39,174,96,1);}
 .channel09 a:hover { background: RGBa(39,174,96,0.2);}
