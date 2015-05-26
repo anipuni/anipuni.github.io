@@ -287,7 +287,7 @@ span4 { border-left: 10px solid; margin: 1px 5px; font-weight: bold; font-size: 
 .aiueo a:hover { color: red;}
 .youbi_span { background-color: #EB2142; color: #fff; padding: 0px 4px; border-radius: 1em;}
 .nama_span { background-color: #234fb1; color: #fff; padding: 0px 4px; border-radius: 1em;}
-#page-top { position: fixed; bottom: 10px; right: 30px; font-size: 40px; z-index: 2000;line-height: 90%;}
+#page-top { position: fixed; bottom: 10px; right: 30px; font-size: 40px; z-index: 2000;line-height: 80%;}
 #page-top a { background: #40AAEF; background-color: rgba(0,171,255,0.9); transition: 0.5s; text-decoration: none; color: #fff; width: 55px; padding: 10px; text-align: center; display: block;}
 #page-top a:hover { text-decoration: none; background: #40AAEF; background-color: rgba(0,100,255,0.9);}
 #searchsubmit { text-decoration: none; background: #40AAEF; background-color: #fff; padding: 0px 0px; margin: 10px 0px 0px 0px;}
