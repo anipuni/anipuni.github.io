@@ -47,6 +47,7 @@ h2 a:visited { font-size: 1em; color: #fff;}
 h2 a:hover { font-size: 1em; color: #fff;}
 h2 a:active { font-size: 1em; color: #fff;}
 h2 { font-size: 1.5em; position: relative; margin: 0px 0px 5px 0px; padding: 15px 0; background: RGBa(235,33,66,0.8); color: #fff; text-align: center; font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
+h4 { text-align: center; padding: 7px; background: rgba(255,78,32,1); font-size: 16px; font-weight: normal; color: #fff; margin-top: 17px; margin-bottom: 11px;}
 h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1em; font-weight: normal; color: #fff; margin-top: 0px; margin-bottom: 3px;}
 #navbar { height: 0;} * { margin: 0; padding: 0; font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
 .clearfix:after { content: '.'; display: block; clear: both; height: 0; visibility: hidden;}
