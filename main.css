@@ -36,7 +36,7 @@ body { -webkit-text-size-adjust: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px
 .post-outer { padding: 0px 0px 0px 0px; margin: -30px 0px 0px 0px;}
 .post-footer { margin: 0px 0px 0px 0px; font-size: 100%; line-height: 0; position: relative;}
 .post a:hover img { opacity: 0.6; transition: 0.5s;}
-.sidebar { background: #fff; padding: 0px 0px 0px 0px; margin: -5px 10px -10px -10px;}
+.sidebar { background: #fff; padding: 0px 0px 0px 0px; margin: -10px 10px -20px -10px;}
 .post-labels { color: RGBa(17,34,204,1); font-size: 1em;}
 .post-labels a { background: RGBa(17,34,204,0.1); color: RGBa(17,34,204,1); text-align: left; font-size: 1.5em; display: inline-block; text-decoration: none; margin: 0px 2px 5px 0px;}
 .post-labels a:hover { background: RGBa(17,34,204,0.2);}
@@ -47,7 +47,7 @@ h2 a:visited { font-size: 1em; color: #fff;}
 h2 a:hover { font-size: 1em; color: #fff;}
 h2 a:active { font-size: 1em; color: #fff;}
 h2 { font-size: 1.5em; position: relative; margin: 0px 0px 5px 0px; padding: 15px 0; background: RGBa(235,33,66,0.8); color: #fff; text-align: center; font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
-h4 { text-align: center; padding: 7px; background: rgba(255,78,32,1); font-size: 16px; font-weight: normal; color: #fff; margin-top: 0px; margin-bottom: 0px;}
+h4 { text-align: center; padding: 7px; background: rgba(255,78,32,1); font-size: 16px; font-weight: normal; color: #fff; margin-top: 17px; margin-bottom: 11px;}
 h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1em; font-weight: normal; color: #fff; margin-top: 0px; margin-bottom: 3px;}
 #navbar { height: 0;} * { margin: 0; padding: 0; font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
 .clearfix:after { content: '.'; display: block; clear: both; height: 0; visibility: hidden;}
