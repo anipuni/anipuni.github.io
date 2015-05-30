@@ -61,7 +61,7 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 #headline2015springFree .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headlinebook .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 255px; position: relative; background-color: #fff;}
 #headlinebook .outer p.title { width: 135px; height: 55px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
-#headlinebook .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 0.5em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinebook .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 0.7em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
 #headlinebook .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
 #headlinebook .inner { text-align: center;}
 #headlinebook .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
