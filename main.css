@@ -264,22 +264,22 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .channel10 a:hover { text-decoration: none; background-color: rgba(0,100,255,0.9);}
 .channel11 a { line-height: 100%; padding: 15px; background-color: RGBa(235,33,66,0.8); color: #ffffff; text-align: center; font-size: 15px; display: block; text-decoration: none; transition: 0.5s;border-bottom: 1px solid #fff;}
 .channel11 a:hover { text-decoration: none; background-color: RGBa(235,33,66,1);}
-.channel12 a {line-height: 130%; padding: 10px; background-color: rgba(0,171,255,0.9); color: #ffffff; text-align: left; font-size: 1em; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel12 a {line-height: 130%; padding: 10px; background-color: rgba(0,171,255,0.9); color: #ffffff; text-align: left; font-size: 1.2em; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
 .channel12 a:hover { text-decoration: none; background-color: rgba(0,100,255,0.9);}
 .channel12 {text-align: center;}
-.channel13 a {line-height: 130%; padding: 10px; background-color: rgba(249, 105, 14,1); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel13 a {line-height: 130%; padding: 10px; background-color: rgba(249, 105, 14,1); color: #ffffff; text-align: left; font-size: 1.2em; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
 .channel13 a:hover { text-decoration: none; background-color: rgba(202, 81, 0,1);}
 .channel13 {text-align: center;}
-.channel14 a {line-height: 130%; padding: 10px; background-color: rgba(27, 163, 156,1); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel14 a {line-height: 130%; padding: 10px; background-color: rgba(27, 163, 156,1); color: #ffffff; text-align: left; font-size: 1.2em; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
 .channel14 a:hover { text-decoration: none; background-color: rgba(16, 134, 130,1);}
 .channel14 {text-align: center;}
-.channel15 a {line-height: 130%; padding: 10px; background-color: rgba(246, 71, 71,1); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel15 a {line-height: 130%; padding: 10px; background-color: rgba(246, 71, 71,1); color: #ffffff; text-align: left; font-size: 1.2em; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
 .channel15 a:hover { text-decoration: none; background-color: rgba(210, 50, 50,1);}
 .channel15 {text-align: center;}
-.channel16 a {line-height: 130%; padding: 10px; background-color: rgba(249, 191, 59,1); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel16 a {line-height: 130%; padding: 10px; background-color: rgba(249, 191, 59,1); color: #ffffff; text-align: left; font-size: 1.2em; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
 .channel16 a:hover { text-decoration: none; background-color: rgba(212, 166, 58,1);}
 .channel16 {text-align: center;}
-.channel17 a {line-height: 130%; padding: 10px; background-color: rgba(142, 68, 173,1); color: #ffffff; text-align: left; font-size: 20px; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
+.channel17 a {line-height: 130%; padding: 10px; background-color: rgba(142, 68, 173,1); color: #ffffff; text-align: left; font-size: 1.2em; display: block; text-decoration: none; border: 1px solid #fff; transition: 0.5s;}
 .channel17 a:hover { text-decoration: none; background-color: rgba(111, 50, 137,1);}
 .channel17 {text-align: center;}
 .youbi a { padding: 0px; color: #ff4e20; text-align: left; font-size: 1.2em; display: block; text-decoration: none;}
