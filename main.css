@@ -1,4 +1,4 @@
-﻿.rss-items li { list-style: none;}
+﻿.rss-items li { list-style: none;margin: 0px 0px 0px -30px;}
 .amama2 img { height: 160px; width: auto;}
 .amama2 a:hover img { opacity: 0.6; transition: 0.5s;}
 .tabs { margin: -20px 0px 0px 0px; padding: 0px; z-index: 1000;}
