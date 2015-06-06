@@ -29,6 +29,6 @@ function getFeed(){
      var content = entry.contentSnippet;
      res += "<li><a href=\"" + link + "\"><b>" + title + "</b></a></li>";
    }
-   var panel = document.getElementById("feed");
+   var panel = document.getElementById("feedb1");
    panel.innerHTML = res;
  }
