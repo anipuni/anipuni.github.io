@@ -15,10 +15,10 @@ div.tabbox { margin: 0px; padding: 0px; width: 100%; overflow: hidden; text-deco
 .tabspage a.tab4 { background-color: RGBa(39,174,96,0.8); color: #fff; display: none;}
 .tabspage a:hover { font-weight: bold;}
 div.tab { height: 100%; overflow: hidden;}
-div#tab1 { border-top: 5px solid RGBa(235,33,66,0.8); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
-div#tab2 { border-top: 5px solid RGBa(0,106,255,0.8); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
-div#tab3 { border-top: 5px solid RGBa(148,0,211,0.8); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
-div#tab4 { border-top: 5px solid RGBa(255,255,255,0); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
+div#tab1 { border-top: 8px solid RGBa(235,33,66,0.8); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
+div#tab2 { border-top: 8px solid RGBa(0,106,255,0.8); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
+div#tab3 { border-top: 8px solid RGBa(148,0,211,0.8); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
+div#tab4 { border-top: 8px solid RGBa(255,255,255,0); border-left: 1px solid RGBa(255,255,255,0); border-right: 1px solid RGBa(255,255,255,0);}
 div.tab p { margin: 0.5em;}
 .teikei a { font-size: 1em; margin: 0px 0px 0px 10px;}
 img { -ms-interpolation-mode: bicubic;}
@@ -253,8 +253,6 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .channel05 a:before { content: "[無料]最新話"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel05 a { line-height: 150%; padding: 5px 0px 5px 0px; margin: 0px 0px 5px 0px; background: RGBa(0,106,255,0.05); color: #006aff; text-align: left; font-size: 1em; display: block; text-decoration: none; border: solid 1px RGBa(0,106,255,1);}
 .channel05 a:hover { background: RGBa(0,106,255,0.2);}
-.channel055 a { line-height: 150%; padding: 5px 0px 5px 0px; margin: 0px 0px 5px 0px; background: RGBa(0,106,255,0.05); color: #006aff; text-align: left; font-size: 1em; display: block; text-decoration: none; border: solid 1px RGBa(0,106,255,1);}
-.channel055 a:hover { background: RGBa(0,106,255,0.2);}
 .channel06 a:before { content: "[有料or未定or無料終了]"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel06 a { line-height: 150%; padding: 5px 0px 5px 0px; margin: 0px 0px 5px 0px; background: RGBa(255,255,255,1); color: #000; text-align: left; font-size: 1em; display: block; text-decoration: none; border: solid 1px RGBa(0,0,0,0.5);}
 .channel06 a:hover { background: RGBa(0,0,0,0.1);}
