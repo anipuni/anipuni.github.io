@@ -309,6 +309,7 @@ html { overflow: auto;}
 body { overflow: hidden;}
 iframe.twitter-timeline { width: 100% !important;}
 .amama img { height: 320px; width: auto;}
+.amama {background: RGBa(235,33,66,0.3);}
 .PopularPosts a { width: 95%; height: 15px; overflow: hidden; margin: 2px 0px -10px 15px; color: red; text-align: left; display: block; font-size: 1.2em; text-decoration: none;}
 .PopularPosts a:hover { color: #1122cc;}
 .popular-posts ul li { counter-increment: popular-count; list-style-type: none; position: relative;}
