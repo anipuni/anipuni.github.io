@@ -351,7 +351,7 @@ h2 { background: RGBa(235,33,66,0.8);}
 @media only screen and (max-width:720px) { .amama img { height: 219px; width: auto;}
 span3 { font-size: 1em;}
 #HTML8 { display: none;}
-.channel07 a:before { content: "検索でアニぷにへお越しいただきありがとうございます_(._.)_\A""現在アニメ本編の無料配信は行われていない模様です\A""公式無料配信を発見された方はTwitter等で\A""ご連絡いただけるとありがたいです_(._.)_\A""違法動画は一切まとめません誘導もしておりません";white-space: pre; font-size: 0.9em; color: red; margin: 0px 0px 5px 10px; display: block;}
+.channel07 a:before { content: "現在アニメ本編の無料配信は行われていない模様です\A""公式無料配信を発見された方はTwitter等で\A""ご連絡いただけると幸いです_(._.)_\A""違法動画は一切まとめません誘導もしておりません";white-space: pre; font-size: 0.9em; color: red; margin: 0px 0px 5px 10px; display: block;}
 #headline2015springFree .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
 #headline2015springFree .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headline2015springFree .outer p.title:hover { height: 60px;}
