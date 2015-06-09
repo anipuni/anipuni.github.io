@@ -1,5 +1,5 @@
 ﻿.amama7 img { height: 320px; width: auto;display: inline-block; white-space: nowrap;float:left;}
-.amama7 {display:block; white-space: nowrap; overflow: hidden;margin-bottom: 1px;}
+.amama7 {width: 2000px;display:block; white-space: nowrap; overflow: hidden;margin-bottom: 1px;}
 .kar_wraper {width: 2000px;}
 .rss-items li { list-style: none;margin: 0px 0px 0px -15px;}
 .amama2 img { height: 160px; width: auto;}
