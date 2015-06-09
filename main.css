@@ -308,9 +308,8 @@ span4 { border-left: 10px solid; margin: 1px 5px; font-weight: bold; font-size: 
 html { overflow: auto;}
 body { overflow: hidden;}
 iframe.twitter-timeline { width: 100% !important;}
-.amama img { height: 320px; width: auto;display: inline-block; white-space: nowrap;float:left;}
-.amama {display:block; white-space: nowrap; overflow: hidden;margin-bottom: 1px;}
-.kar_wraper {width: 2000px;}
+.amama img { height: 320px; width: auto;display: inline-block; white-space: nowrap;}
+.amama {white-space: nowrap; overflow: hidden;margin-bottom: -5px;}
 .PopularPosts a { width: 95%; height: 15px; overflow: hidden; margin: 2px 0px -10px 15px; color: red; text-align: left; display: block; font-size: 1.2em; text-decoration: none;}
 .PopularPosts a:hover { color: #1122cc;}
 .popular-posts ul li { counter-increment: popular-count; list-style-type: none; position: relative;}
