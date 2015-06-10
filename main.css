@@ -1,6 +1,6 @@
 ﻿.amama7 img { height: 320px; width: auto;display: inline-block; white-space: nowrap;float:left;}
 .amama7 {display:block; white-space: nowrap; overflow: hidden;margin-bottom: 1px;overflow-x: auto;}
-.kar_wraper {width: 3000px;}
+.kar_wraper {width: auto;}
 .amazoo_tool_image {width: auto;white-space: nowrap;}
 .amazoo_tool_powered{ display: none;}
 .amazoo_tool_title{ display: none;}
