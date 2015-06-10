@@ -1,11 +1,11 @@
-﻿.amama7 img { height: 320px; width: auto;display: inline-block; white-space: nowrap;float:left;}
-.amama7 {display:block; white-space: nowrap; overflow: hidden;margin-bottom: 1px;}
+﻿.amama7 img { height: 320px; width: auto;display: inline-block;float:left;}
+.amama7 { margin-bottom: 1px;overflow : auto;}
 .kar_wraper {width: 3000px;}
-.amazoo_tool_image {width: auto;white-space: nowrap;}
+.amazoo_tool_image {width: auto;}
 .amazoo_tool_powered{ display: none;}
 .amazoo_tool_title{ display: none;}
 .amazoo_tool_price{ display: none;}
-.amazoo_tool_area{ width:4000px; }
+.amazoo_tool_item{ width: auto;	display:inline-block;}
 .rss-items li { list-style: none;margin: 0px 0px 0px -15px;}
 .amama2 img { height: 160px; width: auto;}
 .amama2 a:hover img { opacity: 0.6; transition: 0.5s;}
