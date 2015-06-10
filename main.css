@@ -249,21 +249,21 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 .button01 a { z-index: 100; padding: 15px 15px 15px 15px; transition: 0.5s; background: RGBa(0,106,255,1); color: #ffffff; text-align: right; font-size: 14px; display: inline-block; text-decoration: none; margin: 0px -20px 0px 0px;}
 .button01 a:hover { z-index: 100; text-decoration: none; padding: 15px 150px 15px 15px;}
 .channel01 a { line-height: 150%; padding: 5px 0px 5px 0px; margin: 0px 0px 1px 0px; background: RGBa(235,33,66,0.05); color: #EB2142; text-align: left; font-size: 1em; display: block; text-decoration: none; border: solid 1px RGBa(235,33,66,1);}
-.channel01 a:hover { background: RGBa(235,33,66,0.2);}
+.channel01 a:hover { background: RGBa(235,33,66,0.2);outline: 5px solid RGBa(235,33,66,1);}
 .channel02 a:before { content: "[無料]期間限定一挙配信"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel02 a { line-height: 150%; padding: 5px 0px 5px 0px; background: RGBa(148,0,211,0.05); color: #9400D3; text-align: left; font-size: 1em; display: block; text-decoration: none; margin: 0px 0px 1px 0px; border: solid 1px RGBa(148,0,211,1);}
-.channel02 a:hover { background: RGBa(148,0,211,0.2);}
+.channel02 a:hover { background: RGBa(148,0,211,0.2);outline: 5px solid RGBa(148,0,211,1);}
 .channel05 a:before { content: "[無料]最新話"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel05 a { line-height: 150%; padding: 5px 0px 5px 0px; margin: 0px 0px 1px 0px; background: RGBa(0,106,255,0.05); color: #006aff; text-align: left; font-size: 1em; display: block; text-decoration: none; border: solid 1px RGBa(0,106,255,1);}
-.channel05 a:hover { background: RGBa(0,106,255,0.2);}
+.channel05 a:hover { background: RGBa(0,106,255,0.2);outline: 5px solid RGBa(0,106,255,1);}
 .channel06 a:before { content: "[有料or未定or無料終了]"; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel06 a { line-height: 150%; padding: 5px 0px 5px 0px; margin: 0px 0px 1px 0px; background: RGBa(255,255,255,1); color: #000; text-align: left; font-size: 1em; display: block; text-decoration: none; border: solid 1px RGBa(0,0,0,0.5);}
-.channel06 a:hover { background: RGBa(0,0,0,0.1);}
+.channel06 a:hover { background: RGBa(0,0,0,0.1);outline: 5px solid RGBa(0,0,0,0.5);}
 .channel07 a { text-decoration: none;}
 .channel07 a:before { content: "現在アニメ本編の無料配信は行われていない模様です\A""公式無料配信を発見された方はTwitter等でご連絡いただけると幸いです_(._.)_\A""違法動画は一切まとめません誘導もしておりません";white-space: pre; font-size: 1.1em; color: red; margin: 0px 0px 5px 10px; display: block;}
 .channel09 a:before { content: "[無料]最新回"; font-size: 1.1em; color: red; margin: 0px 0px 1px 10px; display: block;}
 .channel09 a { line-height: 150%; padding: 5px 0px 5px 0px; background: RGBa(39,174,96,0.05); color: RGBa(39,174,96,1); text-align: left; font-size: 1em; display: block; text-decoration: none; margin: 0px 0px 1px 0px; border: solid 1px RGBa(39,174,96,1);}
-.channel09 a:hover { background: RGBa(39,174,96,0.2);}
+.channel09 a:hover { background: RGBa(39,174,96,0.2);outline: 5px solid RGBa(39,174,96,1);}
 .channel10 a { line-height: 100%; padding: 15px; background-color: rgba(0,171,255,0.9); color: #ffffff; text-align: center; font-size: 15px; display: block; text-decoration: none; transition: 0.5s;}
 .channel10 a:hover { text-decoration: none; background-color: rgba(0,100,255,0.9);}
 .channel11 a { line-height: 100%; padding: 15px; background-color: RGBa(235,33,66,0.8); color: #ffffff; text-align: center; font-size: 15px; display: block; text-decoration: none; transition: 0.5s;border-bottom: 1px solid #fff;}
