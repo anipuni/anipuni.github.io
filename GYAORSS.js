@@ -54,8 +54,8 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
    var d = pdate.getDate();
    d = (d < 10)? "0" + d:d;//日数字を2桁に
    var date = Y + "年" + m + "月" + d + "日";
-   
-   html += ' <a href="' + entry.link + '" target="_blank">' + entry.title + '</a>（' + date + '）';
+
+   html += '<dd><a href="' + entry.link + '" target="_blank">' + entry.title + '</a>（' + date + '）';
    
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
     html += '<strong style="color:red">new!</strong>';
