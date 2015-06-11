@@ -35,8 +35,6 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
  };
  //表示
  var echo = function () {
-  entriesArray.sort (function (b1, b2) { return b1.sortDate < b2.sortDate ? 1 : -1; } );//降順ソート
-  //this.entriesArray.sort (function (b1, b2) { return b1.sortDate > b2.sortDate ? 1 : -1; } );//昇順ソート
   var feedLength = (_maxLength)? _maxLength : entriesArray.length;
   
   var pastDay = 0;//newマークをつける日数
