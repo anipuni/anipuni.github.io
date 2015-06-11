@@ -14,7 +14,7 @@ var getRssFeeds = function (_id, _urls, _maxLength) {
   for(var i=0 ; i < _urls.length ; i++){
    //RSS読み込み
 var d = new Date();
-var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
+var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
    var feed = new google.feeds.Feed(_urls[i]+"?"+dq);
    feed.setNumEntries(entryNum);
    feed.load(function(result) {
