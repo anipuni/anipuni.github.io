@@ -93,7 +93,9 @@ getRssFeeds("feeds", [
 "http://www.b-ch.com/contents/rss/ttl/4552/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4512/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/3713/index.rdf",
-"http://www.b-ch.com/contents/rss/ttl/4546/index.rdf"
+"http://www.b-ch.com/contents/rss/ttl/4546/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4503/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4011/index.rdf"
 ]);
 
 //]]>
