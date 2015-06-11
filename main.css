@@ -1,18 +1,18 @@
 ﻿.menu1 { margin: -5px -5px 0px -18px;position:relative;z-index: 9999999;}
-.menu1 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(0,100,255,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;}
-.menu1 a:hover { text-decoration: none; background-color: rgba(0,100,255,1);}
+.menu1 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(0,100,255,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left; border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
+.menu1 a:hover { text-decoration: none; background-color: rgba(0,100,255,1);border-top: 5px solid RGBa(0,100,255,1);}
 
 .menu2 { margin: -5px -5px 0px -18px;position:relative;z-index: 9999999;}
-.menu2 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(255,117,0,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;}
-.menu2 a:hover { text-decoration: none; background-color: rgba(255,117,0,1);}
+.menu2 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(255,117,0,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
+.menu2 a:hover { text-decoration: none; background-color: rgba(255,117,0,1);border-top: 5px solid RGBa(255,117,0,1);}
 
 .menu3 { margin: -5px -5px 0px -18px;position:relative;z-index: 9999999;}
-.menu3 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(255,51,102,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;}
-.menu3 a:hover { text-decoration: none; background-color: rgba(255,51,102,1);}
+.menu3 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(255,51,102,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
+.menu3 a:hover { text-decoration: none; background-color: rgba(255,51,102,1);border-top: 5px solid RGBa(255,51,102,1);}
 
 .menu4 { margin: -5px -5px 0px -18px;position:relative;z-index: 9999999;}
-.menu4 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(0,204,153,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;}
-.menu4 a:hover { text-decoration: none; background-color: rgba(0,204,153,1);}
+.menu4 a {width:calc((99.9% * 1/7) );width:-webkit-calc((99.9% * 1/7) ); padding: 15px 0px; background-color: rgba(0,204,153,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
+.menu4 a:hover { text-decoration: none; background-color: rgba(0,204,153,1);border-top: 5px solid RGBa(0,204,153,1);}
 .amama7 img { height: 320px; width: auto;display: inline-block;float:left;}
 .amama7 { margin-bottom: 1px;overflow : auto;}
 .kar_wraper {width: 3000px;}
