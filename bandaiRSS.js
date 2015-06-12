@@ -2,7 +2,7 @@
 //<![CDATA[
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
- var entryNum = 50;//各RSSの読み込みエントリー数
+ var entryNum = 1;//各RSSの読み込みエントリー数
  var maxLength = (_maxLength)?  _maxLength : 0 ;
  //総エントリー表示数（0はすべて表示)
  //変数定義
