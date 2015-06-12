@@ -1,4 +1,4 @@
-﻿google.load("feedsbandai", "1");
+﻿google.load("feeds", "1");
 //<![CDATA[
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
