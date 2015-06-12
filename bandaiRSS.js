@@ -1,4 +1,4 @@
-﻿google.load("feeds", "1");
+﻿google.load("feedsbandai", "1");
 //<![CDATA[
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
@@ -71,7 +71,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
 };
 
 
-getRssFeeds("feeds", [
+getRssFeeds("feedsbandai", [
 "http://www.b-ch.com/contents/rss/ttl/4540/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4511/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4532/index.rdf",
