@@ -2,7 +2,7 @@
 //<![CDATA[
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
- var entryNum = 1;//各RSSの読み込みエントリー数
+ var entryNum = 50;//各RSSの読み込みエントリー数
  var maxLength = (_maxLength)?  _maxLength : 0 ;
  //総エントリー表示数（0はすべて表示)
  //変数定義
@@ -54,7 +54,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
    var d = pdate.getDate();
    d = (d < 10)? "0" + d:d;//日数字を2桁に
    var date = Y + "年" + m + "月" + d + "日";
-   
+
    html += '<dd>■<a href="' + entry.link + '" target="_blank">' + entry.title + '</a>（' + date + '）';
    
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
@@ -66,11 +66,8 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
   html += '</dl>';
   container.innerHTML += html;
  };
- 
  google.setOnLoadCallback(init);
 };
-
-
 getRssFeeds("feedsbandai", [
 "http://www.b-ch.com/contents/rss/ttl/4540/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4511/index.rdf",
