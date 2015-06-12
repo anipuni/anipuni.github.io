@@ -39,7 +39,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
   //this.entriesArray.sort (function (b1, b2) { return b1.sortDate > b2.sortDate ? 1 : -1; } );//昇順ソート
   var feedLength = (_maxLength)? _maxLength : entriesArray.length;
   
-  var pastDay = 2;//newマークをつける日数
+  var pastDay = 1;//newマークをつける日数
   var now = (new Date()).getTime();
   var pastTime = pastDay * 24 * 60 * 60 * 1000;
   
