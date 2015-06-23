@@ -143,6 +143,48 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 #headline6 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
 #headline6 .inner { text-align: center;}
 #headline6 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita0 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headlinesita0 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesita0 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesita0 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesita0 .inner { text-align: center;}
+#headlinesita0 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita1 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headlinesita1 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesita1 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesita1 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesita1 .inner { text-align: center;}
+#headlinesita1 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita2 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headlinesita2 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesita2 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesita2 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesita2 .inner { text-align: center;}
+#headlinesita2 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita3 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headlinesita3 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesita3 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesita3 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesita3 .inner { text-align: center;}
+#headlinesita3 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita4 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headlinesita4 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesita4 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesita4 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesita4 .inner { text-align: center;}
+#headlinesita4 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita5 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headlinesita5 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesita5 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesita5 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesita5 .inner { text-align: center;}
+#headlinesita5 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita6 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
+#headlinesita6 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesita6 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesita6 .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesita6 .inner { text-align: center;}
+#headlinesita6 .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headline00 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
 #headline00 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
 #headline00 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
@@ -197,6 +239,12 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 #headlinegentei .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
 #headlinegentei .inner { text-align: center;}
 #headlinegentei .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesitagentei .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 255px; position: relative; background-color: #fff;}
+#headlinesitagentei .outer p.title { width: 135px; height: 55px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlinesitagentei .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlinesitagentei .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlinesitagentei .inner { text-align: center;}
+#headlinesitagentei .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headlinebandai .outer { float: left; margin: 0 0 25px 15px; text-align: left; overflow: hidden; width: 135px; height: 200px; position: relative; background-color: #fff; z-index: 1000;}
 #headlinebandai .outer p.title { width: 135px; height: 47px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headlinebandai .outer p.title:hover { height: 90px;}
@@ -450,6 +498,55 @@ span3 { font-size: 1em;}
 #headline6 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
 #headline6 .inner { text-align: center;}
 #headline6 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita0 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesita0 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesita0 .outer p.title:hover { height: 60px;}
+#headlinesita0 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesita0 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesita0 .inner { text-align: center;}
+#headlinesita0 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita1 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesita1 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesita1 .outer p.title:hover { height: 60px;}
+#headlinesita1 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesita1 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesita1 .inner { text-align: center;}
+#headlinesita1 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita2 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesita2 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesita2 .outer p.title:hover { height: 60px;}
+#headlinesita2 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesita2 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesita2 .inner { text-align: center;}
+#headlinesita2 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita3 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesita3 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesita3 .outer p.title:hover { height: 60px;}
+#headlinesita3 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesita3 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesita3 .inner { text-align: center;}
+#headlinesita3 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita4 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesita4 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesita4 .outer p.title:hover { height: 60px;}
+#headlinesita4 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesita4 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesita4 .inner { text-align: center;}
+#headlinesita4 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita5 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesita5 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesita5 .outer p.title:hover { height: 60px;}
+#headlinesita5 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesita5 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesita5 .inner { text-align: center;}
+#headlinesita5 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesita6 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesita6 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesita6 .outer p.title:hover { height: 60px;}
+#headlinesita6 .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesita6 .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesita6 .inner { text-align: center;}
+#headlinesita6 .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headline00 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
 #headline00 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headline00 .outer p.title:hover { height: 60px;}
@@ -513,6 +610,13 @@ span3 { font-size: 1em;}
 #headlinegentei .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
 #headlinegentei .inner { text-align: center;}
 #headlinegentei .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlinesitagentei .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlinesitagentei .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlinesitagentei .outer p.title:hover { height: 60px;}
+#headlinesitagentei .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlinesitagentei .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlinesitagentei .inner { text-align: center;}
+#headlinesitagentei .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headlinebandai .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; z-index: 1000;}
 #headlinebandai .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headlinebandai .outer p.title:hover { height: 60px;}
