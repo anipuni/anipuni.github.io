@@ -1,6 +1,6 @@
 ﻿google.load("feeds", "1");
 //<![CDATA[
-  google.feeds.findFeeds("Google", function (result){
+  google.feeds.findFeeds("ニセコイ", function (result){
     if (!result.error && result.entries.length > 0){
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
