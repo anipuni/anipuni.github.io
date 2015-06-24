@@ -14,6 +14,7 @@ var getRssFeeds = function (_id, _urls, _maxLength) {
   for(var i=0 ; i < _urls.length ; i++){
    //RSS読み込み
 google.feeds.findFeeds("ニセコイ", dispfeed);
+function dispfeed(result){
 var d = new Date();
 var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    var feed = new google.feeds.Feed(_urls[i]+"?"+dq);
@@ -33,6 +34,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
     if(_urls.length == complete) echo();
    });
   }
+}
  };
  //表示
  var echo = function () {
