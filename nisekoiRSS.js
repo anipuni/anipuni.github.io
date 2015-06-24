@@ -1,7 +1,5 @@
 ﻿google.load("feeds", "1");
 //<![CDATA[
-  google.feeds.findFeeds("ニセコイ", function (result){
-    if (!result.error && result.entries.length > 0){
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
  var entryNum = 1;//各RSSの読み込みエントリー数
@@ -15,6 +13,7 @@ var getRssFeeds = function (_id, _urls, _maxLength) {
  var init = function () {
   for(var i=0 ; i < _urls.length ; i++){
    //RSS読み込み
+google.feeds.findFeeds("ニセコイ", dispfeed);
 var d = new Date();
 var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    var feed = new google.feeds.Feed(_urls[i]+"?"+dq);
@@ -33,8 +32,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
     complete++;
     if(_urls.length == complete) echo();
    });
-  }}}
-}
+  }
  };
  //表示
  var echo = function () {
