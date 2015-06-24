@@ -13,8 +13,7 @@ var getRssFeeds = function (_id, _urls, _maxLength) {
  var init = function () {
   for(var i=0 ; i < _urls.length ; i++){
    //RSS読み込み
-google.feeds.findFeeds("ニセコイ", dispfeed);
-function dispfeed(result){
+google.feeds.findFeeds("ニセコイ", function (result){
 var d = new Date();
 var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    var feed = new google.feeds.Feed(_urls[i]+"?"+dq);
