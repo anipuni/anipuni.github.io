@@ -1,6 +1,7 @@
 ﻿google.load("feeds", "1");
-google.feeds.findFeeds("ニセコイ", dispfeed);
 //<![CDATA[
+  google.feeds.findFeeds("Google", function (result){
+    if (!result.error && result.entries.length > 0){
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
  var entryNum = 1;//各RSSの読み込みエントリー数
@@ -32,7 +33,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
     complete++;
     if(_urls.length == complete) echo();
    });
-  }
+  }}}
 }
  };
  //表示
