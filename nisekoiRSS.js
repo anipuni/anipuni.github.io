@@ -1,5 +1,5 @@
 ﻿google.load("feeds", "1");
-google.feeds.findFeeds("ニセコイ", function (result){
+google.feeds.findFeeds("ニセコイ", dispfeed);
 //<![CDATA[
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
