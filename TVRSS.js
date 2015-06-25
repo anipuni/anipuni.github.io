@@ -24,7 +24,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
       entriesArray.push(entry);
       var pdate = new Date(entry.publishedDate);
       var arr = entriesArray[(entriesArray.length-1)];
-      arr.sortDate = pdate.getTime();
+
       arr.siteTitle = result.feed.title;
      }
     }
