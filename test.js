@@ -24,7 +24,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
       entriesArray.push(entry);
       var pdate = new Date(entry.publishedDate);
       var arr = entriesArray[(entriesArray.length-1)];
-      arr.sortDate = pdate.getTime();
+
       arr.siteTitle = result.feed.title;
      }
     }
@@ -36,7 +36,26 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
  //表示
  var echo = function () {
   var feedLength = (_maxLength)? _maxLength : entriesArray.length;
+  
+  var pastDay = 0;//newマークをつける日数
+  var now = (new Date()).getTime();
+  var pastTime = pastDay * 24 * 60 * 60 * 1000;
+  
+  var container = document.getElementById(_id);
+  var html='<dl>';
+  for (var i = 0; i < feedLength; i++) {
+   var entry = entriesArray[i];
+   var pdate = new Date(entry.publishedDate);
+   var Y = pdate.getFullYear();
+   var m = pdate.getMonth() + 1;
+   m = (m < 10)? "0" + m:m;//月数字を2桁に
+   var d = pdate.getDate();
+   d = (d < 10)? "0" + d:d;//日数字を2桁に
+   var date = Y + "年" + m + "月" + d + "日";
    html += '<dd><a href="' + entry.link + '" target="_blank">' + entry.title + '</a>';
+   
+   if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
+    html += '<strong style="color:red">new!</strong>';
    }
    
    html += '</dd>';
