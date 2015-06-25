@@ -369,7 +369,7 @@ span1 { display: block; font-size: 1.3em; font-weight: bold; width: 100%;  margi
 span11 { text-align: center; display: inline-block; font-size: 1.2em; width: 100%; font-weight: bold; padding-top: 5px; padding-bottom: 5px;}
 span2 { line-height: 150%; margin: 5px 25px; display: block; font-size: 1em; max-width: auto;}
 span3 { color: #555555; font-size: 1em;}
-span4 { margin: 1px 5px; font-weight: bold; font-size: 1.2em;}
+span4 { margin: 1px 5px; font-weight: bold; font-size: 1.2em;display: inline-block;}
 .aiueo a { width: 95%; height: 20px; padding: 1px 10px; overflow: hidden; color: #1122cc; text-align: left; display: block; font-size: 1.2em; text-decoration: none;}
 .aiueo a:hover { color: red;}
 .youbi_span { background-color: #EB2142; color: #fff; padding: 0px 4px; border-radius: 1em;}
@@ -679,7 +679,7 @@ h4 { text-align: left; font-size: 12px;}
 .channel99 a { font-size: 12px;}
 span1 { display: block; font-weight: bold; margin: 5px 0px;}
 span2 { line-height: 150%; margin: 0px 10px; display: block;}
-span4 { line-height: 150%; margin: 0px 10px; display: block; border-left: 5px solid;}
+span4 { line-height: 150%; margin: 0px 10px; display: inline-block; border-left: 5px solid;}
 .post-labels { font-size: 12px;}
 .post-labels a { font-size: 12px;}
 .entry-content { font-size: 12px;}
