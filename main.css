@@ -380,7 +380,7 @@ span4 { border-left: 10px solid; margin: 1px 5px; font-weight: bold; font-size: 
 #searchsubmit { text-decoration: none; background: #40AAEF; background-color: #fff; padding: 0px 0px; margin: 10px 0px 0px 0px;}
 html { overflow: auto;}
 body { overflow: hidden;}
-iframe.twitter-timeline { width: 100% !important;data-chrome="noheader noborders transparent";}
+iframe.twitter-timeline { width: 100% !important;data-chrome="noheader noborders transparent" !important;}
 .amama img { height: 320px; width: auto;display: inline-block; white-space: nowrap;}
 .amama {white-space: nowrap; overflow: hidden;margin-bottom: -5px;}
 .PopularPosts a { width: 95%; height: 15px; overflow: hidden; margin: 2px 0px -10px 15px; color: red; text-align: left; display: block; font-size: 1.2em; text-decoration: none;}
