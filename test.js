@@ -52,7 +52,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    var d = pdate.getDate();
    d = (d < 10)? "0" + d:d;//日数字を2桁に
    var date = Y + "年" + m + "月" + d + "日";
-   html += entry.title;
+   html += entry.content;
    
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
     html += '<strong style="color:red">new!</strong>';
