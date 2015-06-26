@@ -33,15 +33,6 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    });
   }
  };
-
-$(function(){
-	$('.title').each(function(){
-		var txt = $(this).text();
-		$(this).text(
-			txt.replace(/ 配信開始/g,"")
-		);
-	});
-});
  //表示
  var echo = function () {
   entriesArray.sort (function (b1, b2) { return b1.sortDate < b2.sortDate ? 1 : -1; } );//降順ソート
@@ -63,7 +54,10 @@ $(function(){
    var d = pdate.getDate();
    d = (d < 10)? "0" + d:d;//日数字を2桁に
    var date = Y + "年" + m + "月" + d + "日";
-
+    $('.replace').each(function(){
+        var txt = $(this).html();
+        $(this).html(txt.replace(/ 配信開始 /g,''));
+    });
    html += '<dd>■<a href="' + entry.link + '" target="_blank">' + entry.title + '</a><br/>　（' + date + '）';
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
     html += '<strong style="color:red">new!</strong>';
