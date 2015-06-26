@@ -33,14 +33,6 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    });
   }
  };
-$(function(){
-	$('.target').each(function(){
-		var txt = $(this).text();
-		$(this).text(
-			txt.replace(/ 配信開始/g,"")
-		);
-	});
-});
  //表示
  var echo = function () {
   entriesArray.sort (function (b1, b2) { return b1.sortDate < b2.sortDate ? 1 : -1; } );//降順ソート
