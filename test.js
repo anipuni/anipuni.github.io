@@ -2,7 +2,7 @@
 //<![CDATA[
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
- var entryNum = 20;//各RSSの読み込みエントリー数
+ var entryNum = 1;//各RSSの読み込みエントリー数
  var maxLength = (_maxLength)?  _maxLength : 0 ;
  //総エントリー表示数（0はすべて表示)
  //変数定義
@@ -24,7 +24,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
       entriesArray.push(entry);
       var pdate = new Date(entry.publishedDate);
       var arr = entriesArray[(entriesArray.length-1)];
-
+      arr.sortDate = pdate.getTime();
       arr.siteTitle = result.feed.title;
      }
     }
@@ -33,11 +33,21 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    });
   }
  };
+$(function(){
+	$('.target').each(function(){
+		var txt = $(this).text();
+		$(this).text(
+			txt.replace(/ 配信開始/g,"")
+		);
+	});
+});
  //表示
  var echo = function () {
+  entriesArray.sort (function (b1, b2) { return b1.sortDate < b2.sortDate ? 1 : -1; } );//降順ソート
+  //this.entriesArray.sort (function (b1, b2) { return b1.sortDate > b2.sortDate ? 1 : -1; } );//昇順ソート
   var feedLength = (_maxLength)? _maxLength : entriesArray.length;
   
-  var pastDay = 0;//newマークをつける日数
+  var pastDay = 1;//newマークをつける日数
   var now = (new Date()).getTime();
   var pastTime = pastDay * 24 * 60 * 60 * 1000;
   
@@ -52,30 +62,41 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    var d = pdate.getDate();
    d = (d < 10)? "0" + d:d;//日数字を2桁に
    var date = Y + "年" + m + "月" + d + "日";
-   html += '<dd><a href="' + entry.link + '" target="_blank">' + entry.title + '</a>';
-   html += entry.content;
-   
+
+   html += '<dd>■<a href="' + entry.link + '" target="_blank">' + entry.title + '</a><br/>　（' + date + '）';
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
     html += '<strong style="color:red">new!</strong>';
    }
-   
    html += '</dd>';
   }
   html += '</dl>';
   container.innerHTML += html;
  };
- 
  google.setOnLoadCallback(init);
 };
-
-
-getRssFeeds("feedsTV", [
-"http://feed43.com/5275634318217781.xml",
-"http://feed43.com/5638164804658858.xml",
-"http://feed43.com/4627578845330680.xml",
-"http://feed43.com/0683008455166166.xml",
-"http://feed43.com/8358228020052356.xml",
-"http://feed43.com/2684042770044410.xml"
+getRssFeeds("feedsbandai", [
+"http://www.b-ch.com/contents/rss/ttl/4540/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4511/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4532/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4536/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4509/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4553/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4321/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4530/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4555/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4557/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4529/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4513/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4531/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4508/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4535/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4452/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4510/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4552/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4512/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/3713/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4546/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4011/index.rdf"
 ]);
 
 //]]>
