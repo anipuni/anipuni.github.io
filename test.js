@@ -35,7 +35,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
  };
 
 $(function(){
-	$('.target').each(function(){
+	$('.title').each(function(){
 		var txt = $(this).text();
 		$(this).text(
 			txt.replace(/ 配信開始/g,"")
