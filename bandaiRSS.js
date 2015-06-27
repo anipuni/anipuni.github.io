@@ -53,7 +53,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
    m = (m < 10)? "0" + m:m;//月数字を2桁に
    var d = pdate.getDate();
    d = (d < 10)? "0" + d:d;//日数字を2桁に
-   var date = " " + m + "/" + d + "～";
+   var date = " " + m + "/" + d + ;
 
    html += '<dd>■<a href="' + entry.link + '" target="_blank">' + entry.title + '' + date + '</a>';
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
