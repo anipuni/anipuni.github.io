@@ -53,11 +53,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    d = (d < 10)? "0" + d:d;//日数字を2桁に
    var date = Y + "年" + m + "月" + d + "日";
    html += '<dd><a href="' + entry.link + '" target="_blank">' + entry.title + '</a>';
-   html += entry.content;
-			var linkBlank = container.getElementsByTagName('a'); // targetに'_blank'を設定します。不要な場合は、以下4行を削除
-			for (var j = 0, l = linkBlank.length; j < l; j++) {
-				linkBlank[j].target = '_blank';
-			} //target'_blank'ここまで
+   
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
     html += '<strong style="color:red">new!</strong>';
    }
