@@ -58,7 +58,10 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    if(now >= entry.sortDate && now <= (entry.sortDate + pastTime)){
     html += '<strong style="color:red">new!</strong>';
    }
-   
+			var linkBlank = container.getElementsByTagName('a'); // targetに'_blank'を設定します。不要な場合は、以下4行を削除
+			for (var j = 0, l = linkBlank.length; j < l; j++) {
+				linkBlank[j].target = '_blank';
+			} //target'_blank'ここまで
    html += '</dd>';
   }
   html += '</dl>';
