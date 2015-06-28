@@ -67,11 +67,11 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
  google.setOnLoadCallback(init);
 };
 getRssFeeds("anipuniFree", [
-"http://anipuni.blogspot.com/feeds/posts/full/-/2015年夏アニメ無料配信",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2015年春アニメ無料配信",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2015年冬アニメ無料配信",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2014年秋アニメ無料配信",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2014年夏アニメ無料配信"
+"http://anipuni.blogspot.com/feeds/posts/full/-/2015年夏アニメ無料配信?redirect=false&amp;max-results=100&amp;",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2015年春アニメ無料配信?redirect=false&amp;max-results=100&amp;",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2015年冬アニメ無料配信?redirect=false&amp;max-results=100&amp;",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2014年秋アニメ無料配信?redirect=false&amp;max-results=100&amp;",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2014年夏アニメ無料配信?redirect=false&amp;max-results=100&amp;"
 ]);
 
 //]]>
