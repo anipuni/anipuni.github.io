@@ -22,11 +22,10 @@ window[name] = function(d){
                 break;
             }
         }
-
+        root.append(
                 $("<p/>").addClass("title").append(
                     $("<a/>").attr("href",link).append(e.title.$t)
                 )
-            )
         );
         item++;
     }
