@@ -37,4 +37,4 @@ window[name] = function(d){
         item++;
     }
 };
-})(window,"headline2015springFree","#headline2015springFree",0,100,400);
+})(window,"anipuniFree","#anipuniFree",0,100,400);
