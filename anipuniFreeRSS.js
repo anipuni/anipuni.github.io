@@ -2,7 +2,7 @@
 //<![CDATA[
 var getRssFeeds = function (_id, _urls, _maxLength) {
  if(!_id || !_urls || (!(_urls instanceof Array))) return;
- var entryNum = 100;//各RSSの読み込みエントリー数
+ var entryNum = 50;//各RSSの読み込みエントリー数
  var maxLength = (_maxLength)?  _maxLength : 0 ;
  //総エントリー表示数（0はすべて表示)
  //変数定義
@@ -14,7 +14,7 @@ var getRssFeeds = function (_id, _urls, _maxLength) {
   for(var i=0 ; i < _urls.length ; i++){
    //RSS読み込み
 var d = new Date();
-var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
+var dq = d.getMonth()+""+d.getDate()+""+d.getHours()+d.getMinutes();
    var feed = new google.feeds.Feed(_urls[i]+"?"+dq);
    feed.setNumEntries(entryNum);
    feed.load(function(result) {
@@ -67,11 +67,11 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
  google.setOnLoadCallback(init);
 };
 getRssFeeds("anipuniFree", [
-"http://anipuni.blogspot.com/feeds/posts/full/-/2015年夏アニメ無料配信?redirect=false&amp;max-results=100&amp;",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2015年春アニメ無料配信?redirect=false&amp;max-results=100&amp;",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2015年冬アニメ無料配信?redirect=false&amp;max-results=100&amp;",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2014年秋アニメ無料配信?redirect=false&amp;max-results=100&amp;",
-"http://anipuni.blogspot.com/feeds/posts/full/-/2014年夏アニメ無料配信?redirect=false&amp;max-results=100&amp;"
+"http://anipuni.blogspot.com/feeds/posts/full/-/2015年夏アニメ無料配信",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2015年春アニメ無料配信",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2015年冬アニメ無料配信",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2014年秋アニメ無料配信",
+"http://anipuni.blogspot.com/feeds/posts/full/-/2014年夏アニメ無料配信"
 ]);
 
 //]]>
