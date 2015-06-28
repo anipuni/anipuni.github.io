@@ -22,13 +22,7 @@ window[name] = function(d){
                 break;
             }
         }
-        root.append(
-            $("<div/>").addClass("outer").append(
-                $("<div/>").addClass("inner").append(
-                    $("<a/>").attr("href",link).append(
-                        $("<img/>").attr("src",src)
-                    )
-                ),
+
                 $("<p/>").addClass("title").append(
                     $("<a/>").attr("href",link).append(e.title.$t)
                 )
