@@ -23,7 +23,7 @@ window[name] = function(d){
             }
         }
         root.append(
-                $("<p/>").addClass("title").append(
+                $("<p/>■").addClass("title").append(
                     $("<a/>").attr("href",link).append(e.title.$t)
                 )
         );
