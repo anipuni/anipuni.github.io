@@ -37,4 +37,4 @@ window[name] = function(d){
         item++;
     }
 };
-})(window,"anipuniFree","#anipuniFree",0,100,400);
+})(window,"headlineanipuniFree","#headlineanipuniFree",0,100,400);
