@@ -1,5 +1,9 @@
 ﻿#headlineanipuniFree a:before { content: "\25a0"; font-size: 1em;}
 #headlineanipuniFree a:before { content: "\25a0"; font-size: 1em;}
+.menu100 { margin: -5px -5px 0px -18px;position:relative;z-index: 9999999;}
+.menu100 a {width:calc((99.99% * 1/7) );width:-webkit-calc((99.99% * 1/7) ); padding: 15px 0px; background-color: rgba(0,100,255,0.7); color: #ffffff; text-align: left; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left; border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
+.menu100 a:hover { text-decoration: none; background-color: rgba(0,100,255,1);border-top: 5px solid RGBa(0,100,255,1);}
+
 .menu1 { margin: -5px -5px 0px -18px;position:relative;z-index: 9999999;}
 .menu1 a {width:calc((99.99% * 1/7) );width:-webkit-calc((99.99% * 1/7) ); padding: 15px 0px; background-color: rgba(0,100,255,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left; border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
 .menu1 a:hover { text-decoration: none; background-color: rgba(0,100,255,1);border-top: 5px solid RGBa(0,100,255,1);}
