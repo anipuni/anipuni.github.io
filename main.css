@@ -1,4 +1,5 @@
 ﻿#headlineanipuniFree a:before { content: "\25a0"; font-size: 1em;}
+#headlineanipuniFree a:before { content: "\25a0"; font-size: 1em;}
 .menu1 { margin: -5px -5px 0px -18px;position:relative;z-index: 9999999;}
 .menu1 a {width:calc((99.99% * 1/7) );width:-webkit-calc((99.99% * 1/7) ); padding: 15px 0px; background-color: rgba(0,100,255,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left; border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
 .menu1 a:hover { text-decoration: none; background-color: rgba(0,100,255,1);border-top: 5px solid RGBa(0,100,255,1);}
@@ -707,7 +708,7 @@ span3 { font-size: 0.9em;}
 #HTML12 { margin: 10px 0px -25px 0px; padding: 0px; z-index: 1000;}
 }
 #tab { list-style: none; float: left; width: 100%; margin: 10px 0px 10px 0px; padding: 0px 0px 0px 0px; text-align: center; z-index: 100;}
-#tab li { list-style: none; float: left; width: 41px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
+#tab li { list-style: none; float: left; width: 37px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
 #tab li.select { color: #fff; background: RGBa(235,33,66,0.8); text-decoration: none; z-index: 100; height: 30px;}
 #tab li:hover { color: #fff; background-color: #3FA1F7; text-decoration: none; background: RGBa(235,33,66,0.8); z-index: 100;}
 .content_wrap { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
@@ -715,7 +716,7 @@ span3 { font-size: 0.9em;}
 .disnon { display: none;}
 #ym { display: none;}
 #tabdrama { list-style: none; float: left; width: 100%; margin: 10px 0px 10px 0px; padding: 0px 0px 0px 0px; text-align: center; z-index: 100;}
-#tabdrama li { list-style: none; float: left; width: 41px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
+#tabdrama li { list-style: none; float: left; width: 37px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
 #tabdrama li.select { color: #fff; background: RGBa(235,33,66,0.8); text-decoration: none; z-index: 100; height: 30px;}
 #tabdrama li:hover { color: #fff; background-color: #3FA1F7; text-decoration: none; background: RGBa(235,33,66,0.8); z-index: 100;}
 .contentdrama_wrap { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
