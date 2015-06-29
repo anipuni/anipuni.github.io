@@ -708,7 +708,7 @@ span3 { font-size: 0.9em;}
 #HTML12 { margin: 10px 0px -25px 0px; padding: 0px; z-index: 1000;}
 }
 #tab { list-style: none; float: left; width: 100%; margin: 10px 0px 10px 0px; padding: 0px 0px 0px 0px; text-align: center; z-index: 100;}
-#tab li { list-style: none; float: left; width: 37px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
+#tab li { list-style: none; float: left; width: 36px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
 #tab li.select { color: #fff; background: RGBa(235,33,66,0.8); text-decoration: none; z-index: 100; height: 30px;}
 #tab li:hover { color: #fff; background-color: #3FA1F7; text-decoration: none; background: RGBa(235,33,66,0.8); z-index: 100;}
 .content_wrap { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
@@ -716,7 +716,7 @@ span3 { font-size: 0.9em;}
 .disnon { display: none;}
 #ym { display: none;}
 #tabdrama { list-style: none; float: left; width: 100%; margin: 10px 0px 10px 0px; padding: 0px 0px 0px 0px; text-align: center; z-index: 100;}
-#tabdrama li { list-style: none; float: left; width: 37px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
+#tabdrama li { list-style: none; float: left; width: 36px; height: 25px; margin: -5px 2px -20px 0px; padding: 10px 0px 5px 0px; color: #fff; text-align: center; background: RGBa(0,106,255,0.9); z-index: 100; font-size: 1.5em; font-weight: bold; border-radius: 0.2em;}
 #tabdrama li.select { color: #fff; background: RGBa(235,33,66,0.8); text-decoration: none; z-index: 100; height: 30px;}
 #tabdrama li:hover { color: #fff; background-color: #3FA1F7; text-decoration: none; background: RGBa(235,33,66,0.8); z-index: 100;}
 .contentdrama_wrap { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
