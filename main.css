@@ -65,7 +65,7 @@ body { -webkit-text-size-adjust: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px
 #crosscol.tabs.section { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
 .post-body { padding: 0px 0px 0px 0px; margin: -16px 0px -10px 0px;}
 .post-outer { padding: 0px 0px 0px 0px; margin: -30px 0px 0px 0px;}
-.post-footer { margin: 0px 0px 0px 0px; font-size: 100%; line-height: 0; position: relative;}
+.post-footer { margin: -50px 0px 0px 0px; font-size: 100%; line-height: 0; position: relative;}
 .post a:hover img { opacity: 0.6; transition: 0.5s;}
 .sidebar { background: #fff; padding: 0px 0px 0px 0px; margin: -5px 10px 0px -10px;}
 .post-labels { color: RGBa(17,34,204,1); font-size: 1em;}
