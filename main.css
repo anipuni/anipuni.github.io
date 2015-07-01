@@ -28,6 +28,7 @@
 .amazoo_tool_title{ display: none;}
 .amazoo_tool_price{ display: none;}
 .amazoo_tool_area{width:5000px;}
+.appreach-powered { display: none!important;}
 .rss-items li { list-style: none;margin: 0px 0px 0px -15px;}
 .amama2 img { height: 160px; width: auto;}
 .amama2 a:hover img { opacity: 0.6; transition: 0.5s;}
