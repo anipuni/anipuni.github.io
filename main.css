@@ -32,7 +32,7 @@
 .amama2 img { height: 160px; width: auto;}
 .amama2 a:hover img { opacity: 0.6; transition: 0.5s;}
 .tabs { margin: -20px 0px 0px 0px; padding: 0px; z-index: 1000;}
-#footer-1 { margin: -100px -5px 0px -5px; padding: 0px 0px 0px 0px;}
+#footer-1 { margin: -90px -5px 0px -5px; padding: 0px 0px 0px 0px;}
 #footer-2-1 { margin: -110px 0px 0px 0px; padding: 0px 0px 0px 0px;}
 #footer-2-2 { margin: -110px 0px 0px 0px; padding: 0px 0px 0px 0px;}
 div.tabbox { margin: 2px 0px 0px 0px; padding: 0px; width: 100%; overflow: hidden; text-decoration: none;}
