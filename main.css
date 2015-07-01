@@ -21,7 +21,7 @@
 .menu4 a {width:calc((99.99% * 1/7) );width:-webkit-calc((99.99% * 1/7) ); padding: 15px 0px; background-color: rgba(0,204,153,0.7); color: #ffffff; text-align: center; font-size: 1.3em; text-decoration: none; transition: 0.5s;outline: 1px solid #fff; height:100%;float:left;border-top: 5px solid RGBa(255,255,255,1); margin: -5px 0px;}
 .menu4 a:hover { text-decoration: none; background-color: rgba(0,204,153,1);border-top: 5px solid RGBa(0,204,153,1);}
 .amama7 img { height: 320px; width: auto;display: inline-block;float:left;}
-.amama7 { margin-bottom: 1px;overflow : hidden;}
+.amama7 {height: 320px; margin-bottom: 1px;overflow : hidden;}
 .kar_wraper {width: 3000px;}
 .amazoo_tool_image {width: auto;}
 .amazoo_tool_powered{ display: none;}
