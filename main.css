@@ -1,4 +1,5 @@
-﻿#headlineanipuniFree a:before { content: "\25a0"; font-size: 1em;}
+﻿.sidebar { float: right; margin: 0px; width: 0%; display: none;}
+#headlineanipuniFree a:before { content: "\25a0"; font-size: 1em;}
 #headlineanipuniFree a:before { content: "\25a0"; font-size: 1em;}
 
 .menu100m { margin: 0px -15px;position:relative;z-index: 9999999;}
