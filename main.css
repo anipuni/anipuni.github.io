@@ -109,6 +109,12 @@ h5 { text-align: left; padding: 7px; background: rgba(255,78,32,1); font-size: 1
 #headline .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
 #headline .inner { text-align: center;}
 #headline .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlineend .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 255px; position: relative; background-color: #fff;}
+#headlineend .outer p.title { width: 135px; height: 55px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
+#headlineend .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 0.8em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
+#headlineend .outer .title a:hover { border-top: 200px solid rgba(255, 255, 255,0.3);}
+#headlineend .inner { text-align: center;}
+#headlineend .inner img { height: 200px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headline0 .outer { float: left; margin: 0 0 15px 15px; text-align: left; overflow: hidden; width: 135px; height: 248px; position: relative; background-color: #fff;}
 #headline0 .outer p.title { width: 135px; height: 48px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(255, 255, 255,1); transition: 0.5s;}
 #headline0 .outer .title a { margin: -200px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 1em; color: RGBa(0,106,255,1); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 200px solid rgba(255, 255, 255,0.01); border-bottom: 200px solid rgba(255, 255, 255,0.01);}
@@ -471,6 +477,13 @@ span3 { font-size: 1em;}
 #headline .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
 #headline .inner { text-align: center;}
 #headline .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
+#headlineend .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
+#headlineend .outer p.title { width: 97px; height: 45px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
+#headlineend .outer p.title:hover { height: 60px;}
+#headlineend .outer .title a { margin: -144px 0px 0px 0px; padding: 5px 8px 0px 8px; display: block; font-size: 10px; color: #fff; text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; transition: 0.5s; position: relative; border-top: 144px solid rgba(255, 255, 255,0.01); border-bottom: 144px solid rgba(255, 255, 255,0.01);}
+#headlineend .outer .title a:hover { border-top: 144px solid rgba(255, 255, 255,0.3);}
+#headlineend .inner { text-align: center;}
+#headlineend .inner img { height: 144px; top: 0px; bottom: 0px; margin-left: -50%; margin-right: -50%; text-align: center;}
 #headline0 .outer { float: left; margin: 0 0 10px 5px; text-align: left; overflow: hidden; width: 97px; height: 144px; position: relative; background-color: #fff; box-shadow: none;}
 #headline0 .outer p.title { width: 97px; height: 40px; position: absolute; left: 0px; bottom: 0px; background-color: rgba(0,0,0,0.7); transition: 0.5s;}
 #headline0 .outer p.title:hover { height: 60px;}
