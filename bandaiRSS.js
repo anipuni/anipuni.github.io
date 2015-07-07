@@ -67,6 +67,9 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
  google.setOnLoadCallback(init);
 };
 getRssFeeds("feedsbandai", [
+"http://www.b-ch.com/contents/rss/ttl/4601/index.rdf",
+
+
 "http://www.b-ch.com/contents/rss/ttl/4540/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4511/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4532/index.rdf",
