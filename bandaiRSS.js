@@ -68,6 +68,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
 };
 getRssFeeds("feedsbandai", [
 "http://www.b-ch.com/contents/rss/ttl/4601/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4614/index.rdf",
 
 
 "http://www.b-ch.com/contents/rss/ttl/4540/index.rdf",
