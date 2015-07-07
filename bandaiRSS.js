@@ -68,6 +68,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
 };
 getRssFeeds("feedsbandai", [
 "http://www.b-ch.com/contents/rss/ttl/4601/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4612/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4614/index.rdf",
 
 
@@ -75,14 +76,12 @@ getRssFeeds("feedsbandai", [
 "http://www.b-ch.com/contents/rss/ttl/4511/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4532/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4536/index.rdf",
-"http://www.b-ch.com/contents/rss/ttl/4509/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4553/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4321/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4513/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4531/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4508/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4535/index.rdf",
-"http://www.b-ch.com/contents/rss/ttl/4510/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4552/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4512/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/3713/index.rdf",
