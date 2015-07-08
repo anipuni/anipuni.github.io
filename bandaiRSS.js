@@ -70,6 +70,8 @@ getRssFeeds("feedsbandai", [
 "http://www.b-ch.com/contents/rss/ttl/4601/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4612/index.rdf",
 "http://www.b-ch.com/contents/rss/ttl/4614/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4626/index.rdf",
+"http://www.b-ch.com/contents/rss/ttl/4640/index.rdf",
 
 
 "http://www.b-ch.com/contents/rss/ttl/4540/index.rdf",
