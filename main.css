@@ -745,11 +745,11 @@ span3 { font-size: 0.9em;}
 }
 @media only screen and (max-width:400px) { .amama img { height: 150px; width: auto;}
 }
-@media only screen and (min-width:900px) { #footer-1 { display: none;}
+@media only screen and (min-width:900px) {
 .mobileyou { display: none;}
 }
-@media only screen and (max-width:900px) { #footer-2-1 { display: none;}
-#footer-2-2 { display: none;}
+@media only screen and (max-width:900px) { 
+
 #HTML3 { display: none;}
 #HTML12 { margin: 10px 0px -25px 0px; padding: 0px; z-index: 1000;}
 }
