@@ -403,8 +403,8 @@ span4 { margin: 1px 5px; font-weight: bold; font-size: 1.2em;display: block;}
 .youbi_span {box-shadow: 0 0 0 1px #fff inset; background-color: #EB2142; color: #fff; padding: 0px 4px; border-radius: 1em;}
 .nama_span { background-color: #234fb1; color: #fff; padding: 0px 4px; border-radius: 1em;}
 #page-top { position: fixed; bottom: 50px; right: 0px; font-size: 40px; z-index: 2000;line-height: 130%;}
-#page-top a {bordert: 2px solid rgba(0,171,255,0.9);border-radius: 500px; background: #40AAEF; background-color: rgba(0,171,255,0.9); transition: 0.5s; text-decoration: none; color: #fff; width: 55px; padding: 10px; text-align: center; display: block;}
-#page-top a:hover { text-decoration: none;box-shadow: 0 0 0 10px #FFF inset;}
+#page-top a {{border-radius: 500px; background: #40AAEF; background-color: rgba(0,171,255,0.9); transition: 0.5s; text-decoration: none; color: #fff; width: 55px; padding: 10px; text-align: center; display: block;box-shadow: 0 0 0 1px rgba(0,171,255,0.9) inset;}
+#page-top a:hover { text-decoration: none;box-shadow: 0 0 0 1px rgba(0,171,255,0.9) inset,0 0 0 10px #FFF inset;}
 #searchsubmit { text-decoration: none; background: #40AAEF; background-color: #fff; padding: 0px 0px; margin: 10px 0px 0px 0px;}
 html { overflow: auto;}
 body { overflow: hidden;}
