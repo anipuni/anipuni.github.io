@@ -1,5 +1,4 @@
-﻿google.load("feeds", "1");
-var readAmazonFeed = function(feedurl,selector,maxlength){
+﻿var readAmazonFeed = function(feedurl,selector,maxlength){
     function initialize(){
         var feed = new google.feeds.Feed(feedurl);
         feed.setNumEntries(maxlength);
