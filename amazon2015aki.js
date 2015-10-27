@@ -21,7 +21,7 @@
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazon_feed').append("<li style='list-style-type: none'><a href='" + link + "'>" + imgtag + "</a></li>"); //画像リンクを挿入
+    				jQuery('#amazon2015aki').append("<li style='list-style-type: none'><a href='" + link + "'>" + imgtag + "</a></li>"); //画像リンクを挿入
     			}
     		}
     	});
