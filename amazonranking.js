@@ -21,7 +21,7 @@
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazonranking').append("<a href='" + link + "'>" + imgtag + "</a> target="_blank""); //画像リンクを挿入
+    				jQuery('#amazonranking').append("<a href='" + link + "'>" + imgtag + "</a>"+"target='_blank'"); //画像リンクを挿入
     			}
     		}
     	});
