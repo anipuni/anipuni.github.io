@@ -2,7 +2,9 @@
 
     function initialize() {
     	var max_length = 10; //読み込み最大記事数
-    	var feed = new google.feeds.Feed("http://www.amazon.co.jp/gp/rss/bestsellers/dvd/3932520051/ref=zg_bs_3932520051_rsslink&tag=anibull-22"); //RSSを指定
+var d = new Date();
+var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
+    	var feed = new google.feeds.Feed("http://www.amazon.co.jp/gp/rss/bestsellers/dvd/3932520051/ref=zg_bs_3932520051_rsslink&tag=anibull-22"+"?"+dq); //RSSを指定
     	feed.setNumEntries(max_length);
     	feed.load(function(result) {
     		if (!result.error) {
