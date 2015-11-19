@@ -37,4 +37,4 @@ window[name] = function(d){
         item++;
     }
 };
-})(window,"headlineside","#headlineside",0,5,400);
+})(window,"headlineside","#headlineside",0,5,400); 
