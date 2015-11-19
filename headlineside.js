@@ -9,7 +9,7 @@ window[name] = function(d){
         var img = $(c).find("img").first();
         var src = img.attr("src");
         if(src && src.indexOf("https://blogger.googleusercontent.com/tracker/") != -1) continue;
-        if(src.search(/^(http|https)+\:\/\/lh\d+\.googleusercontent.com\//i) != -1 || src.search(/^(http|https)+\:\/\/\d+\.bp\.blogspot\.jp\//i) != -1 || src.search(/^(http|https)+\:\/\/lh\d+\.ggpht.com\//i) != -1){
+        if(src.search(/^(http|https)+\:\/\/lh\d+\.googleusercontent.com\//i) != -1 || src.search(/^(http|https)+\:\/\/\d+\.bp\.blogspot\.com\//i) != -1 || src.search(/^(http|https)+\:\/\/lh\d+\.ggpht.com\//i) != -1){
             var a = src.split('/');
             if(a.length == 9) a[7] = size;
             else if(a.length == 8) a[7] = size + '/' + a[7];
