@@ -15,8 +15,8 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     				var link = entry.link; //記事へのリンク
     				var content = entry.content; //記事の内容
     				var snippet = entry.contentSnippet; //記事の要約
-    				var kakaku = entry.content.b; //価格
-
+    				entry.kakaku= kakaku; //価格
+    				var kakaku = entry.kakaku("d");
     				//記事から画像抽出
     				var imgtag = "";
     				var imgarray = content.match(/(http:){1}[\S_-]+((\.jpg)|(\.JPG)|(\.gif)|(\.png))/);
@@ -24,7 +24,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazonranking-tablet').append("<div class='amarantitle'>" + entry.content.b +"</div>"); //画像リンクを挿入
+    				jQuery('#amazonranking-tablet').append("<div class='amarantitle'>" + entry.kakaku +"</div>"); //画像リンクを挿入
     			}
     		}
     	});
