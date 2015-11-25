@@ -15,8 +15,6 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     				var link = entry.link; //記事へのリンク
     				var content = entry.content; //記事の内容
     				var snippet = entry.contentSnippet; //記事の要約
-    				entry.kakaku= price; //価格
-    				var price = entry.("price");
     				//記事から画像抽出
     				var imgtag = "";
     				var imgarray = content.match(/(http:){1}[\S_-]+((\.jpg)|(\.JPG)|(\.gif)|(\.png))/);
