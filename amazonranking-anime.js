@@ -23,7 +23,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazonranking-anime').append("<div class='amaran'><div class='amarangazo'><a href='" + link + "'target='_blank'></div>" + imgtag + "<div class='amarantitle'>" + entry.title +"</div></div>"); //画像リンクを挿入
+    				jQuery('#amazonrankinganime').append("<div class='amaran'><div class='amarangazo'><a href='" + link + "'target='_blank'></div>" + imgtag + "<div class='amarantitle'>" + entry.title +"</div></div>"); //画像リンクを挿入
     			}
     		}
     	});
