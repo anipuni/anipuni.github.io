@@ -16,13 +16,18 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     				var content = entry.content; //記事の内容
     				var snippet = entry.contentSnippet; //記事の要約
     				//記事から画像抽出
+    				var kakaku = "";
+    				var kakakustrike = content.match(/(<strike>){1}[\S_-]+(</strike>)/);
+    				if (kakakustrike) {
+    					kakakustrike = "";
+    				//記事から画像抽出
     				var imgtag = "";
     				var imgarray = content.match(/(http:){1}[\S_-]+((\.jpg)|(\.JPG)|(\.gif)|(\.png))/);
     				if (imgarray) {
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazonranking-tablet').append("<div class='amaran'><div class='amarangazo'><a href='" + link + "'target='_blank'></div>" + imgtag + "<div class='amarantitle'>" + entry.contentSnippet +"</div></div>"); //画像リンクを挿入
+    				jQuery('#amazonranking-tablet').append("<div class='amaran'><div class='amarangazo'><a href='" + link + "'target='_blank'></div>" + imgtag + "<div class='amarantitle'>" + kakakustrike +"</div></div>"); //画像リンクを挿入
     			}
     		}
     	});
