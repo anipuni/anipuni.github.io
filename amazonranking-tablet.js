@@ -15,9 +15,6 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     				var link = entry.link; //記事へのリンク
     				var content = entry.content; //記事の内容
     				var snippet = entry.contentSnippet; //記事の要約
-    				//記事から画像抽出
-
-    				var kakakustrike = content.match(/(<strike>)+(\)+(</strike>)/);
 
     				//記事から画像抽出
     				var imgtag = "";
@@ -26,7 +23,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazonranking-tablet').append("<div class='amaran'><div class='amarangazo'><a href='" + link + "'target='_blank'></div>" + imgtag + "<div class='amarantitle'>" + entry.content.kakakustrike +"</div></div>"); //画像リンクを挿入
+    				jQuery('#amazonranking-tablet').append("<div class='amaran'><div class='amarangazo'><a href='" + link + "'target='_blank'></div>" + imgtag + "<div class='amarantitle'>" + entry.title +"</div></div>"); //画像リンクを挿入
     			}
     		}
     	});
