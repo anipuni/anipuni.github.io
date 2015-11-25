@@ -23,7 +23,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazonranking-tablet').append( +entry.content +); //画像リンクを挿入
+    				jQuery('#amazonranking-tablet').append(" +entry.content + "); //画像リンクを挿入
     			}
     		}
     	});
