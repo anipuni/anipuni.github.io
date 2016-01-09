@@ -37,4 +37,4 @@ window[name] = function(d){
         item++;
     }
 };
-})(window,"headlinesidepick","#headlinesidepick",0,5,400);
+})(window,"headlinesidepick","#headlinesidepick",0,2,400);
