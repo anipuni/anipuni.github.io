@@ -54,7 +54,7 @@
             }
         }
         if (pageStart > 2) {
-            html += ''
+            html += ' ... '
         }
         for (var jj = pageStart; jj <= pageEnd; jj++) {
             if (currentPageNo == jj) {
@@ -74,7 +74,7 @@
             }
         }
         if (pageEnd < lastPageNo - 1) {
-            html += ''
+            html += ' ... '
         }
         if (pageEnd < lastPageNo) {
             if (currentPage == "page") {
