@@ -19,7 +19,7 @@
         if (lastPageNo - 1 == pageInfo / perPage) lastPageNo = lastPageNo - 1;
         pageEnd = pageStart + numPages - 1;
         if (pageEnd > lastPageNo) pageEnd = lastPageNo;
-        html += "<span class='showpageOf'>Page " + currentPageNo + ' of ' + lastPageNo + "</span>";
+
         var prevNumber = parseInt(currentPageNo) - 1;
       
 		//Iccsi was here, doing magic      
