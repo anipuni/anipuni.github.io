@@ -4,7 +4,7 @@
     	var max_length = 5; //読み込み最大記事数
 var d = new Date();
 var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
-    	var feed = new google.feeds.Feed("http://www.amazon.co.jp/gp/rss/new-releases/digital-text/2410280051/ref=zg_bsnr_2410280051_rsslink&tag=anibull-22"+"?"+dq); //RSSを指定
+    	var feed = new google.feeds.Feed("http://www.amazon.co.jp/gp/rss/bestsellers/dvd/4048539051/ref=zg_bs_4048539051_rsslink&tag=anibull-22"+"?"+dq); //RSSを指定
     	feed.setNumEntries(max_length);
     	feed.load(function(result) {
     		if (!result.error) {
