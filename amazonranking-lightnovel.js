@@ -23,7 +23,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     					imgtag = "<img src='" + imgarray[0] + "' border='0'/>";
     				}
 
-    				jQuery('#amazonranking-lightnovel').append("<a href='" + link + "'target='_blank' rel='nofollow'>" + imgtag + "</a>"); //画像リンクを挿入
+    				jQuery('#amazonranking-lightnovel').append("<div class='amazonrannovel'><a href='" + link + "'target='_blank' rel='nofollow'>" + imgtag + "</a></div>"); //画像リンクを挿入
     			}
     		}
     	});
