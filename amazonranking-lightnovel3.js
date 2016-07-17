@@ -12,6 +12,10 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     			for (var i = 0; i < result.feed.entries.length; i++) {
     				var entry = result.feed.entries[i];
     				var bolRandom = true;
+    				var title = entry.title; //記事タイトル
+    				var link = entry.link; //記事へのリンク
+    				var content = entry.content; //記事の内容
+    				var snippet = entry.contentSnippet; //記事の要約
 
     				//記事から画像抽出
     				var imgtag = "";
