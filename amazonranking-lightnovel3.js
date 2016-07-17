@@ -11,7 +11,7 @@ var dq = d.getMonth()+""+d.getDate()+""+d.getHours();
     			var container = document.getElementById("feed");
     			for (var i = 0; i < result.feed.entries.length; i++) {
     				var entry = result.feed.entries[i];
-var bolRandom        = true;   // true：ランダムにする ／ false：ランキング
+    				var bolRandom = true;
 
     				//記事から画像抽出
     				var imgtag = "";
