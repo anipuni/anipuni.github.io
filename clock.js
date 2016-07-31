@@ -31,7 +31,7 @@ function clock()
     //　HTML: <span id="clock_time">(ココの時刻文字列を書き換え)</span>
     document.getElementById("clock_time").innerHTML = h + ":" + mi + ":" + s;
     //　HTML: <div id="clock_frame"> の内部要素のフォントサイズをウインドウサイズの10分の1ピクセルに設定
-    document.getElementById("clock_frame").style.fontSize =  window.innerWidth / 10 + "px";
+    document.getElementById("clock_frame");
 }
 
 // 上記のclock関数を1000ミリ秒ごと(毎秒)に実行する
