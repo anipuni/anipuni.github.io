@@ -2,23 +2,9 @@
 div#clock_frame
 {
     /* 横幅を親要素であるbodyの100%(同じ幅)にする */
-    width: auto;
+
 }
 
-/* span要素のデフォルト */
-span
-{
-    /* 本来はインライン要素であるspanをブロック要素として扱う */
-    display: block;
-    /* ここでは親要素であるdivの内部で右に寄せて配置させる */
-    float: right;
-    /* 横幅を親要素であるdivの85%にする */
-
-    /* フォントの種類を一番上で指定したGoogle Webフォントに設定する */
-    font-family: 'Oleo Script Swash Caps', cursive;
-}
-
-/* id="clock_date" のspan要素 */
 span#clock_date
 {
     /* この要素の中におけるテキストを右詰めにする デフォルト値のtext-align:leftを上書き */
