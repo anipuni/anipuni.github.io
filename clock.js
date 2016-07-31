@@ -1,30 +1,38 @@
-﻿function clock() {
-var myDay = new Array("日","月","火","水","木","金","土");
-var now  = new Date();
-var year = now.getFullYear(); // 年
-var month = now.getMonth()+1; // 月
-var date = now.getDate(); // 日
-var day = now.getDay();
-var hour = now.getHours(); // 時
-var min  = now.getMinutes(); // 分
-var sec  = now.getSeconds(); // 秒
+﻿// 時計のメインとなる関数
+function clock()
+{
+    // 曜日を表す各文字列の配列
+    var weeks = new Array("Sun","Mon","Thu","Wed","Thr","Fri","Sat");
+    // 現在日時を表すインスタンスを取得
+    var now = new Date();
+    // 年
+    var y = now.getFullYear();
+    // 月 0~11で取得されるので実際の月は+1したものとなる
+    var mo = now.getMonth() + 1;
+    // 日
+    var d = now.getDate();
+    // 曜日 0~6で日曜始まりで取得されるのでweeks配列のインデックスとして指定する
+    var w = weeks[now.getDay()];
+    // 時
+    var h = now.getHours();
+    // 分
+    var mi = now.getMinutes();
+    // 秒
+    var s = now.getSeconds();
 
-// 数値が1桁の場合、頭に0を付けて2桁で表示する指定
-if(hour < 10) { hour = "0" + hour; }
-if(min < 10) { min = "0" + min; }
-if(sec < 10) { sec = "0" + sec; }
+    // 日付時刻文字列のなかで常に2ケタにしておきたい部分はここで処理
+    if (mo < 10) mo = "0" + mo;
+    if (d < 10) d = "0" + d;
+    if (mi < 10) mi = "0" + mi;
+    if (s < 10) s = "0" + s;
 
-// フォーマット①
-var clock1 = hour + ':' + min + ':' + sec;
-
-document . getElementById( 'clock-01' ) . innerHTML= clock1 . toLocaleString(); // div id="clock-01"
-
-// フォーマット②
-var clock2 = year + '年' + month + '月' + date + '日' + '（' + myDay[day] + '曜日）'  + hour + '時' + min + '分' + sec + '秒';
-
-document . getElementById( 'clock-02' ) . innerHTML= clock2 . toLocaleString(); // div id="clock-02"
-
-// 1000ミリ秒ごとに処理を実効
-window . setTimeout( "clock()", 1000);
+    //　HTML: <span id="clock_date">(ココの日付文字列を書き換え)</span>
+    document.getElementById("clock_date").innerHTML =  y + "/" + mo + "/" + d + " (" + w + ")";
+    //　HTML: <span id="clock_time">(ココの時刻文字列を書き換え)</span>
+    document.getElementById("clock_time").innerHTML = h + ":" + mi + ":" + s;
+    //　HTML: <div id="clock_frame"> の内部要素のフォントサイズをウインドウサイズの10分の1ピクセルに設定
+    document.getElementById("clock_frame").style.fontSize =  window.innerWidth / 10 + "px";
 }
-window . onload = clock;
+
+// 上記のclock関数を1000ミリ秒ごと(毎秒)に実行する
+setInterval(clock, 1000);
