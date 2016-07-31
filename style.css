@@ -2,7 +2,7 @@
 div#clock_frame
 {
     /* 横幅を親要素であるbodyの100%(同じ幅)にする */
-    width: 100%;
+    width: auto;
 }
 
 /* span要素のデフォルト */
@@ -13,7 +13,7 @@ span
     /* ここでは親要素であるdivの内部で右に寄せて配置させる */
     float: right;
     /* 横幅を親要素であるdivの85%にする */
-    width: 85%;
+
     /* フォントの種類を一番上で指定したGoogle Webフォントに設定する */
     font-family: 'Oleo Script Swash Caps', cursive;
 }
@@ -24,7 +24,7 @@ span#clock_date
     /* この要素の中におけるテキストを右詰めにする デフォルト値のtext-align:leftを上書き */
     text-align: right;
     /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の0.5倍にする */
-    font-size: 0.5em;
+    font-size: 1em;
     /* 右のパディングの幅を親要素であるdivで設定されたフォントサイズ(px)の0.5倍にする */
     padding-right: 0.5em;
 }
@@ -33,5 +33,5 @@ span#clock_date
 span#clock_time
 {
     /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の2倍にする */
-    font-size: 2em;
+    font-size: 1em;
 }
