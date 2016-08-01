@@ -2,7 +2,7 @@
 function clock()
 {
     // 曜日を表す各文字列の配列
-    var weeks = new Array("Sun","Mon","Thu","Wed","Thr","Fri","Sat");
+    var weeks = new Array("㊐","㊊","㊋","㊌","㊍","㊎","㊏");
     // 現在日時を表すインスタンスを取得
     var now = new Date();
     // 年
